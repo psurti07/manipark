@@ -182,7 +182,7 @@
             </div>
     </section>
 
-    <section id="products" class="py-80 features-section division bg--blue-100">
+    <section id="products" class="py-80 features-section division bg--green-100">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-10">
@@ -268,13 +268,13 @@
                 <div class="col-md-10 col-lg-9 m-auto">
                     <div class="timeline position-relative">
                         <div class="timeline-item">
-                            <div class="timeline-content bg--blue-100 p-4 r-18">
+                            <div class="timeline-content bg--green-100 p-4 r-18">
                                 Start by entering your mobile number and bank-registered name.
                             </div>
                             <div class="timeline-number">01</div>
                         </div>
                         <div class="timeline-item">
-                            <div class="timeline-content bg--blue-100 p-4 r-18">
+                            <div class="timeline-content bg--green-100 p-4 r-18">
                                 Fill in the required information to let our automated system assess
                                 your eligibility and show your pre-approved loan offer(s). This is
                                 not the final offer.
@@ -282,27 +282,27 @@
                             <div class="timeline-number">02</div>
                         </div>
                         <div class="timeline-item">
-                            <div class="timeline-content bg--blue-100 p-4 r-18">
+                            <div class="timeline-content bg--green-100 p-4 r-18">
                                 Subscribe to unlock access to your displayed pre-approved loan offer(s).
                             </div>
                             <div class="timeline-number">03</div>
                         </div>
                         <div class="timeline-item">
-                            <div class="timeline-content bg--blue-100 p-4 r-18">
+                            <div class="timeline-content bg--green-100 p-4 r-18">
                                 Within 24-48 hours, our login team will reach out for verification
                                 and guide you through the document submission process.
                             </div>
                             <div class="timeline-number">04</div>
                         </div>
                         <div class="timeline-item">
-                            <div class="timeline-content bg--blue-100 p-4 r-18">
+                            <div class="timeline-content bg--green-100 p-4 r-18">
                                 Your documents and profile will be verified by the NBFC in accordance
                                 with its terms and conditions.
                             </div>
                             <div class="timeline-number">05</div>
                         </div>
                         <div class="timeline-item">
-                            <div class="timeline-content bg--blue-100 p-4 r-18">
+                            <div class="timeline-content bg--green-100 p-4 r-18">
                                 The NBFC will determine loan sanction, approval, and disbursement
                                 in accordance with its rules and regulations.
                             </div>
@@ -347,7 +347,7 @@
     <!-- Our Partners section end  -->
     
     <!-- Contact Start -->
-    <section id="contact" class="py-80 bg--blue-500">
+    <section id="contact" class="py-80 bg--green-100">
         <div class="container">
             <div class="row align-items-start justify-content-center">
                 <div class="col-lg-6 py-md-0 py-4">
@@ -430,7 +430,7 @@
                 </div>
                   <div class="col-lg-6 md-mb-50 mb-20">
                     <div class="sec-title2 mb-40">
-                        <h2 class="s-28 mb-2 color--white">Get in <span class="color--blue-500">Touch</span></h2>
+                        <h2 class="s-28 mb-2">Get in <span class="color--blue-500">Touch</span></h2>
                         <p class="description color--grey">Fill in your basic information, and our experts will contact you
                             as soon as
                             possible.</p>
@@ -442,7 +442,7 @@
                                     <h6 class="color--blue-500"> Customer Support </h6>
                                     <p class="address-txt"><a
                                             href="tel:{{ str_ireplace(' ', '', config('constant.COMPANY_MOBILE')) }}"
-                                            class="text-white">{{ config('constant.COMPANY_MOBILE') }}</a>
+                                            class="">{{ config('constant.COMPANY_MOBILE') }}</a>
                                     </p>
                                 </div>
                             </div>
@@ -454,7 +454,7 @@
                                     <h6 class="color--blue-500"> Mail Us </h6>
                                     <p class="address-txt"><a
                                             href="mailto:{{ str_ireplace(' ', '', config('constant.COMPANY_SUPPORT_MAIL')) }}"
-                                            class="text-white">{{ config('constant.COMPANY_SUPPORT_MAIL') }}</a>
+                                            class="">{{ config('constant.COMPANY_SUPPORT_MAIL') }}</a>
                                     </p>
                                 </div>
                             </div>
@@ -464,7 +464,7 @@
                             <div class="address-item">
                                 <div class="address-text">
                                     <h6 class="color--blue-500"> Address </h6>
-                                    <p class="address-txt text-white">{{ config('constant.COMPANY_ADDRESS') }}</p>
+                                    <p class="address-txt ">{{ config('constant.COMPANY_ADDRESS') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -473,7 +473,7 @@
                             <div class="address-item">
                                 <div class="address-text">
                                     <h6 class="color--blue-500"> Working Hours </h6>
-                                    <p class="address-txt text-white">
+                                    <p class="address-txt ">
                                         Monday to Saturday: 10:00 AM - 5:00 PM<br>
                                         Sunday: Closed</p>
                                 </div>

@@ -182,7 +182,7 @@
 }
 
 .input-group-text {
-  color: #fff !important;
+  color: #666 !important;
   background-color: transparent !important;
 }
 
@@ -471,3 +471,290 @@
 .header-top{
   background-color: #000;
 }
+
+
+
+@media screen and (max-width:991px) {
+
+  .number-right-image::before,
+  .bg-image::before,
+  .bg-image-1::before,
+  .bg-image-2::before,
+  .bg-image-3::before,
+  .bg-image-4::before,
+  .bg-image-5::before {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:767px) {
+  .feature-card-main .col:nth-child(n+6) .fbox-7 {
+    border-bottom: none !important;
+  }
+}
+
+.features-section .fbox-image {
+  background: #EEF6FF24;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.otp-input {
+  height: 64px;
+  width: 56px;
+  text-align: center;
+  font-size: 25px;
+  margin: 0 5px;
+  border: 1px solid #E2E8F0;
+  border-radius: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.request-form.from-main .input-group {
+  border-radius: 14px;
+  border: 1px solid #E8E6EF;
+}
+
+.request-form.request-main-form .form-control {
+  border: none;
+
+}
+
+.request-form.request-main-form .input-group {
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+
+
+/* step-css */
+
+/* Main Top Header */
+
+.loan-steps-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 46px;
+
+  display: flex;
+  align-items: center;
+
+  background: #080E18;
+
+  border-bottom: 1px solid #1F2A3A;
+  border-radius: 18px 18px 0 0;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+
+/* Window Dots */
+
+.loan-steps-wrapper .window-dots {
+
+  left: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.loan-steps-wrapper .window-dots .dot {
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+}
+
+.loan-steps-wrapper .window-dots .red {
+  background: #FF6B6B;
+}
+
+.loan-steps-wrapper .window-dots .yellow {
+  background: #F4C35A;
+}
+
+.loan-steps-wrapper .window-dots .green {
+  background: #6ABF69;
+}
+
+
+/* Steps Container */
+
+.loan-steps-wrapper .loan-steps {
+  display: flex;
+  align-items: center;
+}
+
+.loan-steps-wrapper .step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.loan-steps-wrapper .step.active {
+  width: auto;
+  height: 26px;
+  padding: 0 14px 0 6px;
+  gap: 6px;
+  border-radius: 20px;
+  background: #12304A;
+  color: #FFFFFF;
+}
+
+.loan-steps-wrapper .step.active .step-number {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #2196F3;
+  color: #FFFFFF;
+  font-size: 10px;
+}
+
+.loan-steps-wrapper .step-title {
+  font-size: 10px;
+  font-weight: 600;
+  white-space: nowrap;
+  color: #D9E2EC;
+}
+
+.loan-steps-wrapper .step-number {
+  line-height: 1;
+}
+
+
+.loan-steps-wrapper .step-line {
+  width: 12px;
+  height: 2px;
+  margin: 0 7px;
+  border-radius: 5px;
+  background: #26354A;
+}
+
+.loan-steps-wrapper .secure-text {
+
+  right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #7D899A;
+  font-size: 10px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+
+.loan-steps-wrapper .secure-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #55B848;
+}
+
+@media (max-width: 575px) {
+  .window-dots {
+    display: none !important;
+  }
+
+  .loan-steps-wrapper .secure-text {
+    display: none !important;
+  }
+
+  .loan-steps-wrapper {
+    justify-content: center;
+    padding: 0 10px;
+  }
+
+  .loan-steps {
+    transform: scale(0.8);
+    transform-origin: center;
+  }
+
+  .secure-text {
+    display: none;
+  }
+
+  .window-dots {
+    left: 10px;
+  }
+
+
+}
+
+.contact-form.contact-form-1 .form-control,
+.contact-form.contact-form-1 .form-select {
+  height: 56px;
+  background-color: #f5f6f8;
+  color: #3a4a56 !important;
+}
+
+.contact-form.contact-form-1.save-form-4 .form-control,
+.contact-form.contact-form-1.save-form-4 .form-select {
+  background-color: #172235;
+  color: #fff !important;
+}
+.contact-form.contact-form-main-wrap.career-form .form-control,
+.contact-form.contact-form-main-wrap.career-form .form-select{
+  color: #fff;
+}
+
+.subscription-card .cbox-1-ico {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form-1 .fbox-image {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.feature-main-wrap .fbox-8 {
+  background-color: #141F42;
+  border: 1px solid #141F42;
+}
+
+
+.request-form .form-control::placeholder {
+  color: #3a4a56 !important;
+
+}
+
+.radio:focus~.plan-details .plan-type i {
+  color: #248c92;
+}
+
+.radio:focus~.plan-details .plan-type {
+  color: #0d8087;
+}
+
+.contact-form.contact-form-1 input:-webkit-autofill,
+.contact-form.contact-form-1 input:-webkit-autofill:hover,
+.contact-form.contact-form-1 input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #fff !important;
+  -webkit-box-shadow: 0 0 0 1000px #18243A inset !important;
+  box-shadow: 0 0 0 1000px #18243A inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.request-form.request-main-form .form-control {
+  color: #fff;
+}
+

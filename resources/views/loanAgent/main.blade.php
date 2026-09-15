@@ -15,8 +15,8 @@
         }
 
         .radio:checked {
-            background: #FF7A29;
-            border-color: #FF7A29;
+            background: #0d8087;
+            border-color: #0d8087;
         }
 
 
@@ -30,7 +30,7 @@
         .input-group-text {
             color: #111827;
             border: none;
-            background-color: #FFF3EA !important;
+            background-color: #dfeced !important;
             line-height: 1.3;
             border-top-left-radius: 5px;
             border-bottom-left-radius: 5px;
@@ -59,7 +59,7 @@
     </style>
 @endpush
 @section('content')
-    <section id="hero-201" class="bg--blue-500  bg--fixed hero-section feature-main-wrap number-right-image">
+    <section id="hero-201" class="bg--green-400  bg--fixed hero-section feature-main-wrap number-right-image">
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-md-6 col-lg-6 order-lg-1 order-2">
@@ -223,13 +223,13 @@
                                         href="{{ route('front.terms.conditions') }}" target="_blank"
                                         class="text-dark text-decoration-none">Terms of Use</a> and <a
                                         href="{{ route('front.privacy.policy') }}" class="text-dark text-decoration-none"
-                                        target="_blank">Privacy Policy</a>of rupeyfincorp.</label></p>
+                                        target="_blank">Privacy Policy</a>of Manipark.</label></p>
                             <p class="mb-0 s-12 text-start text-dark d-flex align-items-start">
                                 <input type="checkbox" name="promotion" id="promotion" class="custom-control-input mt-1"
                                     value="1" required checked><label class="ms-1 s-12">I agree to receive
                                     promotional &
                                     informational
-                                    communications from Rupeyfincorp through Emails, calls or SMS, RCS Services.</label>
+                                    communications from Manipark through Emails, calls or SMS, RCS Services.</label>
                             </p>
                         </form>
                     </div>
@@ -270,19 +270,19 @@
     </section>
     <!-- Affiliate NBFCs section ends -->
 
-    <!-- why RupeyFincorp section starts -->
-    <section id="features-6" class="py-80 features-section division bg--blue-500 feature-main-wrap bg-image-1">
+    <!-- why Manipark section starts -->
+    <section id="features-6" class="py-80 features-section division bg--green-400 feature-main-wrap bg-image-1">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-9">
                     <div class="section-title mb-50">
-                        <h2 class="s-28 mb-2 color--white">Why <span class="color--green-500">RupeyFincorp</span></h2>
+                        <h2 class="s-28 mb-2 color--white">Why <span class="color--green-500">Manipark</span></h2>
                         <p class="s-16 color--grey mt-0">Here's what sets us apart.</p>
                     </div>
                 </div>
             </div>
             <div class="fbox-wrapper text-center">
-                <div class="row g-3 row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="row g-3 row-cols-1 row-cols-md-2 row-cols-lg-4">
                     <div class="col">
                         <div class="fbox-8 fbox--hover fb-2 r-12 text-start h-100">
                             <div class="fbox-ico mb-3">
@@ -316,6 +316,20 @@
                         <div class="fbox-8 fbox--hover fb-2 r-12 text-start h-100">
                             <div class="fbox-ico mb-3">
                                 <div class="fbox-image ico-10">
+                                    <i class="fas fa-magic color--green-500 lh-1"></i>
+                                </div>
+                            </div>
+                            <div class="fbox-txt">
+                                <h4 class="s-15 w-700 color--white">Self-Apply Feature</h4>
+                                <p class="color--grey s-12">Take charge of your own finances while reaping the benefits of
+                                    impeccable provisions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="fbox-8 fbox--hover fb-2 r-12 text-start h-100">
+                            <div class="fbox-ico mb-3">
+                                <div class="fbox-image ico-10">
                                     <i class="fas fa-user color--green-500 lh-1"></i>
                                 </div>
                             </div>
@@ -331,7 +345,7 @@
             </div>
         </div>
     </section>
-    <!-- why RupeyFincorp section ends -->
+    <!-- why Manipark section ends -->
 
     <!-- Testimonioals section starts -->
     <section id="reviews-1" class="py-80 shape--06 reviews-section bg--green-100">
@@ -356,16 +370,22 @@
     </section>
     <!-- Testimonioals section ends -->
 
-    <section class="py-20 shape--06 bg--blue-500 ">
+    <section class="py-20 shape--06 bg--green-400 ">
         <div class="container">
             <div class="row justify-content-center mb-3">
                 <div class="col-12 col-md-4 col-lg-4 col-xl-4">
                     <div class="form-holder">
                         <div class="contact-form-notice">
                             <p class="s-12 color--white">
-                                <strong class="color--white mb-1 d-block">Important Note:</strong> We ask our customers to
-                                make payments ONLY on our website
-                                https://rupeyfincorp.com and NOT through any other source, directly or indirectly.
+                                <strong class="color--white mb-1 d-block">Disclosure:</strong> Loan Tenure ranges from
+                                minimum 6 months to maximum of 72
+                                months with Annual Interest Rates ranging between 11% - 35%. Processing fee up to 2%. For
+                                example: Taking in consideration a personal loan of Rs.1,00,000 availed at 11% interest rate
+                                for a tenure of 6* years with 2% processing fee, the APR will be 11.75%*. Manipark is
+                                not a direct lender itself. Instead we provide consultation services to help users connect
+                                with right NBFCs for loan approval. *T&C Apply. All these numbers are tentative/indicative,
+                                the final loan specifics may vary depending upon the customer profile and NBFCs' criteria,
+                                rules & regulations, and terms & conditions.
                             </p>
                         </div>
                     </div>
@@ -374,13 +394,10 @@
                     <div class="form-holder">
                         <div class="contact-form-notice">
                             <p class="s-12 color--white">
-                                <strong class="color--white mb-1 d-block">Disclaimer:</strong> RupeyFincorp Private Limited
-                                is not a lender or financial
-                                institution. We do not provide loans or make credit decisions. All loan approvals, interest
-                                rates, fees, and disbursal are handled by third-party lenders/NBFCs. We do not guarantee
-                                loan approval, disbursal, or specific loan terms. The amount paid is only for the service
-                                charge. We are not lenders and do not guarantee any loan approval. Loan approval,
-                                disbursement/sanction is entirely dependent on NBFC criteria.
+                                <strong class="color--white mb-1 d-block">Disclaimer:</strong> Manipark is a loan
+                                aggregator and is authorized to
+                                provide services on behalf of its Lending Partners. The amount paid is only for the service
+                                charge. We are not lenders and do not guarantee any loan approval.
                             </p>
                         </div>
                     </div>
@@ -389,9 +406,11 @@
                     <div class="form-holder">
                         <div class="contact-form-notice">
                             <p class="s-12 color--white">
-                                <strong class="color--white mb-1 d-block">Pre-Application Note:</strong> Users are advised
-                                to read our terms and conditions
-                                and policies before proceeding/applying/registration.
+                                <strong class="color--white mb-1 d-block">Important Note:</strong> BE AWARE! We ask our
+                                customers to make payments ONLY
+                                on our
+                                website https://Manipark.com and NOT through any other source, directly or indirectly.
+                                Thanks!
                             </p>
                         </div>
                     </div>
@@ -494,7 +513,7 @@
                         <span class="fbox-ico ico-10"> <span
                                 class="flaticon-right-arrow  ico-20 ms-1"></span></span></button>
                     <div class="d-flex align-items-start mt-3"><span class="flaticon-shield me-2 mt-1"></span>
-                        <p class="m-0 s-14">Rupeyfincorp will never call you for your OTP. Treat your OTP like a
+                        <p class="m-0 s-14">Manipark will never call you for your OTP. Treat your OTP like a
                             password — do not share it with anyone.</p>
                     </div>
                 </form>

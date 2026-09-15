@@ -23,79 +23,6 @@ body {
 <section id="contacts" class="bg--blue-300 personal-details-form pb-100 inner-page-hero contacts-section division">
     <div class="container">
         <div class="row">
-            <!-- <div class="col-md-3 col-lg-3 col-12">
-                                <div class="txt-block left-column gr--white border border-radius-10 p-2">
-                                    <div class="accordion accordion-flush mb-10" id="accordionFlushExample">
-                                        <div class="accordion-item bg-transparent">
-                                            <h2 class="accordion-header" id="flush-headingOne">
-                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-                                                    User Details
-                                                </button>
-                                            </h2>
-                                            <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body p-2">
-                                                    <p class="s-12 text-grey mb-0">Fullname :</p>
-                                                    <p class="s-14 text-black mt-0">{{ Cookie::get('fullname') }}</p>
-
-                                                    <p class="s-12 text-grey mb-0">Mobile :</p>
-                                                    <p class="s-14 text-black mt-0">{{ Cookie::get('user_mobile') }}</p>
-
-                                                    <p class="s-12 text-grey mb-0">Loan Amount :</p>
-                                                    <p class="s-14 text-black mt-0 mb-0">&#8377;{{ formatePriceIndia(Cookie::get('loan_amount')) }}</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <hr class="divider" />
-
-                                    <div class="p-2">
-                                        <p class="s-12 mt-10 mb-10">Application Process </p>
-
-                                        <div class="cbox-12 process-step">
-                                            <div class="ico-wrap">
-                                                <div class="cbox-12-ico text-white bg--green-500">1</div>
-                                            </div>
-                                            <div class="cbox-12-txt">
-                                                <p class="s-11">Loan Details</p>
-                                            </div>
-                                        </div>
-                                        <div class="cbox-12 process-step">
-                                            <div class="ico-wrap">
-                                                <div class="cbox-12-ico text-white bg--green-500">2</div>
-                                            </div>
-                                            <div class="cbox-12-txt">
-                                                <p class="s-11">Personal Details</p>
-                                            </div>
-                                        </div>
-                                        <div class="cbox-12 process-step">
-                                            <div class="ico-wrap">
-                                                <div class="cbox-12-ico text-white bg--green-500">3</div>
-                                            </div>
-                                            <div class="cbox-12-txt">
-                                                <p class="s-11">Unlock Offers</p>
-                                            </div>
-                                        </div>
-                                        <div class="cbox-12 process-step">
-                                            <div class="ico-wrap">
-                                                <div class="cbox-12-ico border-dark-subtle">4</div>
-                                            </div>
-                                            <div class="cbox-12-txt">
-                                                <p class="s-11">Purchase Plan</p>
-                                            </div>
-                                        </div>
-                                        <div class="cbox-12 process-step">
-                                            <div class="ico-wrap">
-                                                <div class="cbox-12-ico border-dark-subtle">5</div>
-                                            </div>
-                                            <div class="cbox-12-txt">
-                                                <p class="s-11">Personalized Offers</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-
             <div class="col-md-9 col-lg-9 col-12 m-auto">
                 <div class="r-26 overflow-auto">
                     <div class="loan-steps-wrapper">
@@ -226,7 +153,7 @@ body {
                                                 <div class="fbox-ico">
                                                     <div class="shape-ico">
                                                         <img class="p-0"
-                                                            src="https://manage.rupeyfincorp.com/public/upload/banks/{{ $offersData[0]['bank_image'] }}"
+                                                            src="https://manage.Manipark.com/public/upload/banks/{{ $offersData[0]['bank_image'] }}"
                                                             alt="bank" width="160">
                                                     </div>
                                                 </div>
@@ -270,7 +197,7 @@ body {
                                                 <div class="fbox-ico">
                                                     <div class="shape-ico">
                                                         <img class="p-0"
-                                                            src="https://manage.rupeyfincorp.com/public/upload/banks/{{ $item['bank_image'] }}"
+                                                            src="https://manage.Manipark.com/public/upload/banks/{{ $item['bank_image'] }}"
                                                             alt="bank" width="160">
                                                     </div>
                                                 </div> <!-- End Icon -->

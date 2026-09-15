@@ -102,38 +102,25 @@
                                 </div>
                                 <div class="range mt-2 d-block">
                                     <div class="d-flex justify-content-between required-amount mt-4">
-                                        <span class="text-uppercase s-12 mb-0 fw-normal color--grey">enter required
+                                        <span class="text-uppercase s-12 mb-0 fw-normal color--white">enter required
                                             amount</span>
-                                        <span class="text-uppercase s-14 mb-0 fw-normal color--grey">₹50K – ₹10L</span>
+                                        <span class="text-uppercase s-14 mb-0 fw-normal color--white">₹50K – ₹10L</span>
                                     </div>
                                     <div class="form-group range__slider">
                                         <input type="range" step="10000">
                                         <input type="hidden" id="loanAmount" value="" name="loan_amount">
                                     </div>
                                     <div class="d-flex justify-content-between required-price">
-                                        <span class="text-uppercase s-12 mb-2 mt-2 fw-normal color--grey">₹50,000</span>
+                                        <span class="text-uppercase s-12 mb-2 mt-2 fw-normal color--white">₹50,000</span>
                                         <span
-                                            class="text-uppercase s-14 mb-2 mt-2 fw-normal color--grey">₹10,00,000</span>
+                                            class="text-uppercase s-14 mb-2 mt-2 fw-normal color--white">₹10,00,000</span>
                                     </div>
 
                                 </div>
-                                <!-- <div class="col-md-12 mt-4 mb-2 contact-form">
-                                    <select class="form-select subject valid" aria-label="Default select example" aria-invalid="false" name="monthly_income">
-                                        <option value="">Monthly Income (&#8377;)</option>
-                                        <option value="0-15000">&#8377; 0 - 15,000</option>
-                                        <option value="15000-30000">&#8377; 15,000 - 30,000</option>
-                                        <option value="30000-45000">&#8377; 30,000 - 45,000</option>
-                                        <option value="45000-55000">&#8377; 45,000 - 55,000</option>
-                                        <option value="55000-70000">&#8377; 55,000 - 70,000</option>
-                                        <option value="70000-85000">&#8377; 70,000 - 85,000</option>
-                                        <option value="85000-100000">&#8377; 85,000 - 1,00,000</option>
-                                        <option value="100000">&#8377; 1,00,000 +</option>
-                                    </select>
-
-                                </div> -->
-                                <div class="col-md-12 mt-3 mb-2">
+                             
+                                <div class="col-md-6 mb-2">
                                     <label for="form_mobile"
-                                        class="position-static p-0 text-uppercase s-14 mb-2 color--grey text-start d-block">enter
+                                        class="position-static p-0 text-uppercase s-14 mb-2 color--white text-start d-block">enter
                                         monthly income</label>
                                     <div class="input-group">
                                         <div class="input-group-prepend">
@@ -147,9 +134,9 @@
                                     @component('components.ajax-error',['field'=>'monthly_income'])@endcomponent
                                 </div>
 
-                                <div class="col-md-12 mb-2">
+                                <div class="col-md-6 mb-2">
                                     <label for="form_mobile"
-                                        class="position-static p-0 text-uppercase s-14 mb-2 color--grey text-start d-block">enter
+                                        class="position-static p-0 text-uppercase s-14 mb-2 color--white text-start d-block">enter
                                         current emi (if any)</label>
                                     <div class="input-group">
                                         <div class="input-group-prepend">
@@ -171,26 +158,6 @@
                                 </div>
                             </div>
                         </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="py-20 gr--smoke">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-12 col-xl-12">
-                <div class="form-holder">
-                    <div class="contact-form-notice">
-                        <p class="s-14">
-                            Range of Loan tenure is up to 72 months with Annual Interest Rates ranging between 11% - 36%
-                            and the processing fee up to 2%. For Example: Taking in consideration a personal loan of
-                            Rs.1,00,000 availed at 11%* interest rate for a tenure of 6* years with 2%* processing fee,
-                            the APR will be 11.75%*. *T&C Apply. All these numbers are tentative/indicative, the final
-                            loan specifics may vary depending upon the customer profile and NBFCs’ criteria, rules &
-                            regulations, and terms &amp; conditions.
-                        </p>
                     </div>
                 </div>
             </div>

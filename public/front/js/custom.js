@@ -508,7 +508,7 @@ let valueElement = document.querySelector('.range .range__value span')
 
 let options = {
     min: 10000,
-    max: 5000000,
+    max: 1000000,
     cur: 500000
 }
 

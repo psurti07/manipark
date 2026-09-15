@@ -32,10 +32,10 @@
     #loanterm { width:60px!important;flex:0 0 60px!important; }
 }
 .section-id{margin-bottom:10px!important;}
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{ background: #ffffff!important;border: 5px solid #248c92 !important; }
-.ui-widget-header{ background:#248c92 !important }
-.input-group-text{color: #248c92 !important;background-color: #eee !important;}
-.custm-box, .custm-box-2{ color: #248c92 !important;background-color: #eeeeee !important; }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{ background: #ffffff!important;border: 5px solid #02a6fc !important; }
+.ui-widget-header{ background:#02a6fc !important }
+.input-group-text{color: #02a6fc !important;background-color: #eee !important;}
+.custm-box, .custm-box-2{ color: #02a6fc !important;background-color: #eeeeee !important; }
 .ui-slider-horizontal{ height:0.35rem!important; }
 .bc-1-wrapper{padding:80px 80px}
 .emi-details .card {

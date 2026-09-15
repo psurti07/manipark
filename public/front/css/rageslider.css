@@ -33,7 +33,7 @@
     border-radius: 4px;
 }
 .ag-calculator_input-wrap .rangeslider__fill {
-    background-color: #248c92;
+    background-color: #02a6fc;
 
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -74,7 +74,7 @@
     line-height: .92;
     padding: 20px 40px;
     border: 0;
-    background-color: #248c92;
+    background-color: #02a6fc;
 
     text-transform: uppercase;
     text-decoration: none;

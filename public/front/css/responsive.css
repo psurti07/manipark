@@ -1073,7 +1073,7 @@
   }
 
   #hero-8-form {
-    padding: 38px 25px;
+    padding: 20px;
   }
 
   #hero-8-form h4 {
@@ -1443,10 +1443,6 @@
   }
 
   /* FEATURES */
-  .fbox--hover .fbox-txt {
- 
-    text-align: left;
-}
   .fbox-14-wrapper {
     padding: 70px 50px;
   }
@@ -4395,7 +4391,10 @@
     margin-top: 28px;
   }
 
- 
+  .smllogo img {
+    width: auto;
+    max-width: inherit;
+  }
 
   .blog-header .smllogo img {
     max-height: 60px;
@@ -5106,9 +5105,9 @@
   }
 
   #hero-8-form {
-    padding: 26px 25px;
+    padding:20px;
     margin-left: 25px;
-    border-radius: 10px;
+ 
   }
 
   #hero-8-form h4,
@@ -5635,7 +5634,7 @@
   .rows-2 .fb-1,
   .rows-2 .fb-2,
   .rows-2 .fb-3 {
-    margin-bottom: 0px;
+    margin-bottom: 35px;
   }
 
   .fbox-14.fb-1,
@@ -5671,7 +5670,7 @@
   }
 
   .fbox-7 {
-    padding: 30px 15px 27px;
+    padding: 25px;
   }
 
   .fbox-8,
@@ -5887,7 +5886,9 @@
     margin-bottom: 12px;
   }
 
- 
+  .row-cols-md-2 .fbox-7 p {
+    padding: 0 15%;
+  }
 
   .fbox-14 p {
     padding: 0 20%;
@@ -7903,10 +7904,7 @@
     padding-top: 10px;
   }
 
-  img.footer-logo,
-  img.footer-logo-dark {
-    max-height: 33px;
-  }
+ 
 
   #footer-1 .footer-logo,
   #footer-5 .footer-logo,
@@ -8974,7 +8972,7 @@
     margin: 1px 0 2px 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
-    border-radius: 0 !important;
+    border-radius: 0;
   }
 
   .wsmenu>.wsmenu-list>li a.btn.reg-btn {
@@ -9270,6 +9268,7 @@
   #hero-7 {
     padding-top: 80px;
     text-align: center;
+    padding-bottom: 0;
   }
 
   #hero-7 .quick-form {
@@ -9518,7 +9517,6 @@
     text-align: center;
     padding-top: 100px;
     padding-bottom: 60px;
-    padding-top: 60px !important;
   }
 
   #hero-201:after {
@@ -11475,9 +11473,9 @@
   }
 
   #hero-8-form {
-    padding: 40px 30px;
+    padding:20px;
     margin: 40px 5% 0;
-    border-radius: 10px;
+ 
   }
 
   #hero-8-form h4 {
@@ -11485,7 +11483,7 @@
   }
 
   #hero-8-form p {
-    padding: 0 3%;
+    padding: 0;
     margin-bottom: 20px;
   }
 
@@ -11766,10 +11764,12 @@
   .fbox-7,
   .row-cols-md-2 .fbox-7 {
     padding: 35px 20px 30px;
+    border-right: none !important;
+    border-bottom: 1px solid #E8E6EF !important;
   }
 
   .fbox-8.fb-1 {
-    padding: 25px;
+    padding: 35px;
   }
 
   .fbox-8.bg--white-100 {
@@ -12327,7 +12327,7 @@
   }
 
   .review-1 {
-    padding: 35px 32px 30px;
+    padding: 25px;
   }
 
   .review-2,
@@ -12338,7 +12338,7 @@
   }
 
   .review-txt {
-    margin-top: -43px;
+    margin-top: 0px;
   }
 
   .review-txt h6 {
@@ -13299,10 +13299,7 @@
     margin-top: 15px;
   }
 
-  img.footer-logo,
-  img.footer-logo-dark {
-    max-height: 38px;
-  }
+ 
 
   #footer-1 .footer-logo,
   #footer-5 .footer-logo,
@@ -14374,7 +14371,7 @@
   /* HERO-7 */
   #hero-7 {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 0px;
   }
 
   .hero-7-txt h2 {
@@ -14404,7 +14401,7 @@
   }
 
   #hero-8-form {
-    padding: 30px 20px;
+    padding: 20px;
     /* margin: 40px 4% 40px; */
     margin: 0;
     border-radius: 10px;
@@ -14820,6 +14817,8 @@
   .fbox-7,
   .fbox-9 {
     padding: 40px 25px 35px;
+    border-right: none !important;
+    border-bottom: 1px solid #E8E6EF !important;
   }
 
   .fbox-5 {
@@ -14831,7 +14830,7 @@
   }
 
   .fbox-8.fb-1 {
-    padding: 25px;
+    padding: 0 25px 40px;
   }
 
   .fbox-8.bg--white-100 {
@@ -15701,7 +15700,7 @@
   /* 30.5px */
 
   .review-1 {
-    padding: 35px 20px 30px;
+    padding:25px;
     margin: 0 6px 20px;
   }
 
@@ -15713,7 +15712,7 @@
   }
 
   .review-txt {
-    margin-top: -40px;
+    margin-top: 0px;
   }
 
   .review-txt h6 {
@@ -16898,10 +16897,7 @@
     margin-bottom: 10px;
   }
 
-  img.footer-logo,
-  img.footer-logo-dark {
-    max-height: 37px;
-  }
+  
 
   #footer-1 .footer-logo,
   #footer-5 .footer-logo,
@@ -18037,7 +18033,7 @@
   /* HERO-7 */
   #hero-7 {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 0px;
   }
 
   .hero-7-txt h2 {
@@ -18067,7 +18063,7 @@
   }
 
   #hero-8-form {
-    padding: 30px 18px;
+    padding:20px;
     margin: 20px 2% 0;
     border-radius: 10px;
   }
@@ -18469,6 +18465,8 @@
   .fbox-7,
   .fbox-9 {
     padding: 40px 25px 35px;
+    border-right: none !important;
+    border-bottom: 1px solid #E8E6EF !important;
   }
 
   .fbox-5 {
@@ -18480,7 +18478,7 @@
   }
 
   .fbox-8.fb-1 {
-    padding: 25px;
+    padding: 0 25px 40px;
   }
 
   .fbox-8.bg--white-100 {
@@ -18488,7 +18486,7 @@
   }
 
   .fbox-8.fb-3 {
-    padding: 25px;
+    padding: 45px 25px 0;
   }
 
   .fbox-12,
@@ -19358,7 +19356,7 @@
   /* 30.5px */
 
   .review-1 {
-    padding: 35px 20px 30px;
+    padding: 25px;
     margin: 0 6px 20px;
   }
 
@@ -19370,7 +19368,7 @@
   }
 
   .review-txt {
-    margin-top: -40px;
+    margin-top: 0px;
   }
 
   .review-txt h6 {
@@ -20554,11 +20552,7 @@
     margin-bottom: 10px;
   }
 
-  img.footer-logo,
-  img.footer-logo-dark {
-    max-height: 37px;
-  }
-
+  
   #footer-1 .footer-logo,
   #footer-5 .footer-logo,
   #footer-6 .footer-logo,
@@ -20794,7 +20788,7 @@
 
   #login.login-1 .register-page-form,
   #signup.signup-1 .register-page-form {
-    padding: 15px 10px;
+    padding: 20px;
   }
 
   .reset-page-wrapper .form-control,
@@ -21757,7 +21751,7 @@
   /* HERO-7 */
   #hero-7 {
     padding-top: 70px;
-    padding-bottom: 80px;
+    padding-bottom: 00px;
   }
 
   .hero-7-txt h2 {
@@ -21787,7 +21781,7 @@
   }
 
   #hero-8-form {
-    padding: 26px 15px;
+  padding: 20px;
     margin: 35px 2% 0;
     border-radius: 10px;
   }
@@ -22257,6 +22251,8 @@
   .fbox-7,
   .fbox-9 {
     padding: 40px 25px 35px;
+    border-right: none !important;
+    border-bottom: 1px solid #E8E6EF !important;
   }
 
   .fbox-5 {
@@ -22268,7 +22264,7 @@
   }
 
   .fbox-8.fb-1 {
-    padding: 25px;
+    padding: 0 25px 40px;
   }
 
   .fbox-8.bg--white-100 {
@@ -22276,7 +22272,7 @@
   }
 
   .fbox-8.fb-3 {
-    padding:25px;
+    padding: 45px 25px 0;
   }
 
   .fbox-12,
@@ -23159,7 +23155,7 @@
   /* 28.5px */
 
   .review-1 {
-    padding: 35px 25px 30px;
+    padding: 25px;
   }
 
   .review-2 {
@@ -23173,7 +23169,7 @@
   }
 
   .review-txt {
-    margin-top: -43px;
+    margin-top: 0px;
   }
 
   .review-txt h6 {
@@ -24402,10 +24398,7 @@
     margin-bottom: 10px;
   }
 
-  img.footer-logo,
-  img.footer-logo-dark {
-    max-height: 36px;
-  }
+ 
 
   #footer-1 .footer-logo,
   #footer-5 .footer-logo,
@@ -24645,7 +24638,7 @@
 
   #login.login-1 .register-page-form,
   #signup.signup-1 .register-page-form {
-    padding: 15px 10px;
+    padding: 20px;
   }
 
   .reset-page-wrapper .form-control,
@@ -25665,7 +25658,7 @@
   /* HERO-7 */
   #hero-7 {
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 0px;
   }
 
   .hero-7-txt h2 {
@@ -25699,7 +25692,7 @@
   }
 
   #hero-8-form {
-    padding: 26px 12px;
+    padding: 20px;
     margin: 20px 2% 0;
     border-radius: 10px;
   }
@@ -26232,7 +26225,9 @@
 
   .fbox-7,
   .fbox-9 {
-    padding: 35px 25px 30px;
+    padding:25px;
+    border-right: none !important;
+    border-bottom: 1px solid #E8E6EF !important;
   }
 
   .row-cols-md-2 .fbox-7 {
@@ -26240,7 +26235,7 @@
   }
 
   .fbox-8.fb-1 {
-    padding: 25px;
+    padding: 0 25px 35px;
   }
 
   .fbox-8.fb-3 {
@@ -27114,7 +27109,10 @@
   .rbox-1-img {
     margin-bottom: 15px;
   }
- 
+
+  .rbox-1-img img {
+    max-height: 50px;
+  }
 
   .rbox-2-txt img {
     max-height: 28px;
@@ -27187,7 +27185,7 @@
   }
 
   .review-txt {
-    margin-top: -40px;
+    margin-top: 0px;
   }
 
   .review-txt h6 {
@@ -28433,11 +28431,7 @@
     margin-bottom: 10px;
   }
 
-  img.footer-logo,
-  img.footer-logo-dark {
-    max-height: 34px;
-  }
-
+ 
   #footer-1 .footer-logo,
   #footer-5 .footer-logo,
   #footer-6 .footer-logo,
@@ -28683,10 +28677,10 @@
     padding: 35px 20px;
   }
 
-  /* #login.login-1 .register-page-form,
+  #login.login-1 .register-page-form,
   #signup.signup-1 .register-page-form {
-    padding: 5px;
-  } */
+    padding: 20px;
+  }
 
   .reset-page-wrapper .form-control,
   .register-page-form .form-control {
@@ -28850,7 +28844,9 @@
     padding: 0.9rem 0.75rem !important;
   }
 
-  
+  .btn {
+    height: 48px !important;
+  }
 
   .hero-section .quick-form.form-half .form-control {
     height: 48px !important
@@ -28860,7 +28856,8 @@
 @media screen and (min-width: 768px) {
   .border-right-light-1 {
     border-right: 1px solid #ffffff;
-    padding-left: 7.5%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .border-right-dark-1 {
@@ -28944,6 +28941,11 @@
   .extra-page-submit {
     display: none
   }
+
+  #sb-5-1,
+  #sb-5-2 {
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (min-width: 492px) and (max-width: 521px) {
@@ -29004,19 +29006,42 @@
   .nbfc-selfapply-list {
     display: none !important;
   }
-
  
 }
 
- 
- 
+@media screen and (min-width: 230px) {
+  .home-img img {
+    width: 280px !important;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .home-img img {
+    width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 426px) {
+  .home-img img {
+    width: 500px !important;
+  }
+}
+
 @media screen and (min-width: 200px) and (max-width: 1439px) {
   .bc-1-wrapper {
     padding: 0px 0px !important
   }
 }
 
-
+/*@media screen and (min-width:200px){
+    .trustBadges-pd{  }
+}*/
+/*@media screen and (min-width: 320px) and (max-width: 374px) {
+    .trustBadges-pd{ padding-top: 65px; padding-bottom: 35px; }
+}
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .trustBadges-pd{ padding-top: 95px; padding-bottom: 100px; }
+}*/
 @media screen and (min-width: 300px) and (max-width: 1300px) {
   .bg--09 {
     background-image: url(../images/bg-02.jpg)

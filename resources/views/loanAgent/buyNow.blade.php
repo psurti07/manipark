@@ -39,80 +39,6 @@
     <section id="contacts" class="bg--blue-300 personal-details-form pb-100 inner-page-hero contacts-section division">
         <div class="container">
             <div class="row">
-                <!-- <div class="col-md-3 col-lg-3 col-12">
-                                    <div class="txt-block left-column gr--white border border-radius-10 p-2">
-                                        <div class="accordion accordion-flush mb-10" id="accordionFlushExample">
-                                            <div class="accordion-item bg-transparent">
-                                                <h2 class="accordion-header" id="flush-headingOne">
-                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-                                                        User Details
-                                                    </button>
-                                                </h2>
-                                                <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                                    <div class="accordion-body p-2">
-                                                        <p class="s-12 text-grey mb-0">Fullname :</p>
-                                                        <p class="s-14 text-black mt-0">{{ Cookie::get('fullname') }}</p>
-
-                                                        <p class="s-12 text-grey mb-0">Mobile :</p>
-                                                        <p class="s-14 text-black mt-0">{{ Cookie::get('user_mobile') }}</p>
-
-                                                        <p class="s-12 text-grey mb-0">Loan Amount :</p>
-                                                        <p class="s-14 text-black mt-0 mb-0">&#8377;{{ formatePriceIndia(Cookie::get('loan_amount')) }}</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <hr class="divider" />
-
-                                        <div class="p-2">
-                                            <p class="s-12 mt-10 mb-10">Application Process </p>
-
-                                            <div class="cbox-12 process-step">
-                                                <div class="ico-wrap">
-                                                    <div class="cbox-12-ico text-white bg--green-500">1</div>
-                                                </div>
-                                                <div class="cbox-12-txt">
-                                                    <p class="s-11">Loan Details</p>
-                                                </div>
-                                            </div>
-                                            <div class="cbox-12 process-step">
-                                                <div class="ico-wrap">
-                                                    <div class="cbox-12-ico text-white bg--green-500">2</div>
-                                                </div>
-                                                <div class="cbox-12-txt">
-                                                    <p class="s-11">Personal Details</p>
-                                                </div>
-                                            </div>
-                                            <div class="cbox-12 process-step">
-                                                <div class="ico-wrap">
-                                                    <div class="cbox-12-ico text-white bg--green-500">3</div>
-                                                </div>
-                                                <div class="cbox-12-txt">
-                                                    <p class="s-11">Unlock Offers</p>
-                                                </div>
-                                            </div>
-                                            <div class="cbox-12 process-step">
-                                                <div class="ico-wrap">
-                                                    <div class="cbox-12-ico text-white bg--green-500">4</div>
-                                                </div>
-                                                <div class="cbox-12-txt">
-                                                    <p class="s-11">Purchase Plan</p>
-                                                </div>
-                                            </div>
-                                            <div class="cbox-12 process-step">
-                                                <div class="ico-wrap">
-                                                    <div class="cbox-12-ico border-dark-subtle">5</div>
-                                                </div>
-                                                <div class="cbox-12-txt">
-                                                    <p class="s-11">Personalized Offers</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
-
-
                 <div class="col-md-9 col-lg-9 col-12 m-auto">
                     <div class="r-26 overflow-auto">
                         <div class="loan-steps-wrapper">
@@ -233,8 +159,8 @@
                                     </div>
                                 </div>
                                 <h4 class="fw-bolder mb-10 color--white">Premium Subscription Offer</h4>
-                                <p class="mb-20 color--grey mt-0">Your pre-approved loan is waiting. Purchase a
-                                    subscription to
+                                <p class="mb-20 color--grey mt-0">Your pre-approved loan is waiting. Purchase a subscription
+                                    to
                                     proceed. <span class="text-danger">- Offer Valid till 12 am only!</span></p>
 
                                 <form method="post" class="buyNowForm" action="{{ route('loan.agent.checkout') }}">
@@ -272,8 +198,8 @@
 
                                                         <div class="order-summary">
                                                             <div class="order-row order-header">
-                                                                <span class="color--grey text-uppercase">Items</span>
-                                                                <span class="color--grey text-uppercase">Price</span>
+                                                                <span class="color--white text-uppercase">Items</span>
+                                                                <span class="color--white text-uppercase">Price</span>
                                                             </div>
 
                                                             <div class="order-row">
@@ -303,7 +229,7 @@
                                                             <div class="order-divider"></div>
 
                                                             <div class="order-row order-total">
-                                                                <h5 class="color--grey">Total</h5>
+                                                                <h5 class="color--white">Total</h5>
                                                                 <h5 class="color--white">₹
                                                                     {{ formatePriceIndia($selfApply->offeramount + $selfApply->offeramount * 0.18) }}
                                                                 </h5>
@@ -418,7 +344,6 @@
         </div>
     </section>
 @endsection
-
 @push('scripts')
     <script>
         $(document).ready(function() {
@@ -451,41 +376,42 @@
 
                 // Use Math.floor to round down the total amount
                 var finalAmount = totalAmount;
-                $('#submit-btn').text('Purchase Plan: ₹' + Math.floor(baseAmount));
+                $('#submit-btn').text('Buy Now');
                 // Update the hidden input field with the final amount
                 $('#order_amount').val(finalAmount);
             }
-        });
-        var owl = $('.buyNow-carousel');
-        owl.owlCarousel({
-            items: 5,
-            loop: true,
-            autoplay: true,
-            navBy: 1,
-            nav: false,
-            autoplayTimeout: 4000,
-            autoplayHoverPause: false,
-            smartSpeed: 2000,
-            responsive: {
-                0: {
-                    items: 4
-                },
-                550: {
-                    items: 4
-                },
-                767: {
-                    items: 5
-                },
-                768: {
-                    items: 5
-                },
-                991: {
-                    items: 5
-                },
-                1000: {
-                    items: 5
+
+            var owl = $('.buyNow-carousel');
+            owl.owlCarousel({
+                items: 5,
+                loop: true,
+                autoplay: false,
+                //navBy: 1,
+                nav: false,
+                autoplayTimeout: 4000,
+                autoplayHoverPause: false,
+                smartSpeed: 2000,
+                responsive: {
+                    0: {
+                        items: 4
+                    },
+                    550: {
+                        items: 4
+                    },
+                    767: {
+                        items: 5
+                    },
+                    768: {
+                        items: 5
+                    },
+                    991: {
+                        items: 5
+                    },
+                    1000: {
+                        items: 5
+                    }
                 }
-            }
+            });
         });
     </script>
 @endpush

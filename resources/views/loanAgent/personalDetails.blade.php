@@ -1,7 +1,6 @@
 @extends('layouts.selfapply')
 @push('css')
-<link href="{{ asset('front/css/custom.css') }}" rel="stylesheet" type="text/css" />
-
+    <link href="{{ asset('front/css/custom.css') }}" rel="stylesheet" type="text/css" />
     <style>
         .accordion-button {
             background-color: transparent !important;
@@ -18,7 +17,7 @@
 @endpush
 
 @section('content')
-    <section id="contacts" class="bg--blue-300 personal-details-form pb-100 inner-page-hero contacts-section division">
+    <section id="hero-201" class="bg--blue-300 bg--fixed hero-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-9 col-lg-9 col-12 m-auto">
@@ -127,7 +126,7 @@
                                     <div class="row">
                                         <div class="col-md-6 col-sm-12 mb-4">
                                             <label for="firstname"
-                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal color--grey">First
+                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal color--white">First
                                                 Name *</label>
                                             <div class="form-group form-floating">
                                                 <input id="firstname" name="firstname" type="text"
@@ -140,7 +139,7 @@
                                         </div>
                                         <div class="col-md-6 col-sm-12 mb-4">
                                             <label for="lastname"
-                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal color--grey">Last
+                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal color--white">Last
                                                 Name *</label>
                                             <div class="form-group form-floating">
                                                 <input id="lastname" name="lastname" type="text"
@@ -153,7 +152,7 @@
                                         </div>
                                         <div class="col-md-6 col-sm-12 mb-4">
                                             <label for="email"
-                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal color--grey">Email
+                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal color--white">Email
                                                 *</label>
                                             <div class="form-group form-floating">
                                                 <input id="email" name="email" type="email"
@@ -166,7 +165,7 @@
                                         </div>
                                         <div class="col-md-6 col-sm-12 mb-4">
                                             <label for="pincode"
-                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal color--grey">Pincode
+                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal color--white">Pincode
                                                 *</label>
                                             <div class="form-group form-floating">
                                                 <input id="pincode" name="pincode" type="text"
@@ -183,7 +182,7 @@
                                         </div>
                                         <div class="col-md-6 col-sm-12 mb-4">
                                             <label for="city"
-                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal color--grey">City
+                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal color--white">City
                                                 *</label>
                                             <div class="form-group form-floating">
                                                 <input id="city" name="city" type="text"
@@ -196,7 +195,7 @@
                                         </div>
                                         <div class="col-md-6 col-sm-12 mb-4">
                                             <label for="state"
-                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal color--grey">State
+                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal color--white">State
                                                 *</label>
                                             <div class="form-group form-floating">
                                                 <!--<input id="state" name="state"  type="text" class="form-control mb-0" placeholder="" value="{{ old('state') }}">-->
@@ -254,7 +253,7 @@
                         beforeSend: function() {
                             $('#submit-btn').html(
                                 '<span class="spinner-border spinner-border-sm"></span> Continue'
-                                );
+                            );
                             $('#submit-btn').attr('disabled', true);
                         },
                         success: function(result) {
