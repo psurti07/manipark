@@ -63,7 +63,7 @@ body {
                             256-bit secure
                         </div>
                     </div>
-                    <div class="bg--blue-100 p-4 text-start">
+                    <div class="bg-white p-4 text-start">
                         <div class="card-body">
 
                             <div class="row mb-3 contact-form-1">
@@ -137,7 +137,7 @@ body {
                                     </div>
                                 </div>
                             </div>
-                            <h4 class="fw-bolder mb-10 color--white">You’re Eligible For Loan Offers.</h4>
+                            <h4 class="fw-bolder mb-10">You’re Eligible For Loan Offers.</h4>
                             <p class="mb-20 color--grey mt-0">Unlock Offers with Our Expert Consultation!</p>
 
                             <form action="{{ route('self.apply.buyNow') }}" id="unlockOffersForm"
@@ -149,7 +149,7 @@ body {
                                         <div class="col-lg-4 col-md-4 col-12">
                                             <span class="badge badge-success w-100 text-start"
                                                 style="border-radius: 12px 12px 0 0;">Most Recommended Offer*</span>
-                                            <div id="fb-12-3" class="fbox-12 bg--blue-300 block-shadow r-12 mb-20">
+                                            <div id="fb-12-3" class="fbox-12  block-shadow r-12 mb-20">
                                                 <div class="fbox-ico">
                                                     <div class="shape-ico">
                                                         <img class="p-0"
@@ -159,17 +159,17 @@ body {
                                                 </div>
                                                 <div class="fbox-txt">
                                                     <h6 class="s-12 color--grey">Loan Amount</h6>
-                                                    <p class="s-14 color--white">&#8377;
+                                                    <p class="s-14">&#8377;
                                                         {{ formatePriceIndia($offersData[0]['loanAmount']) }}</p>
                                                     <hr class="custm-HR" />
 
                                                     <h6 class="s-12 color--grey">Max Tenure</h6>
-                                                    <p class="s-14 color--white">{{ $offersData[0]['tenures'] }} Months
+                                                    <p class="s-14 ">{{ $offersData[0]['tenures'] }} Months
                                                     </p>
                                                     <hr class="custm-HR" />
 
                                                     <h6 class="s-12 color--grey">Best Rate</h6>
-                                                    <p class="s-14 color--white">{{ $offersData[0]['roi'] }}% P.A</p>
+                                                    <p class="s-14 ">{{ $offersData[0]['roi'] }}% P.A</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -192,7 +192,7 @@ body {
                                             <span class="badge badge-success w-100 text-start"
                                                 style="border-radius: 12px 12px 0 0;">Most Recommended Offer*</span>
                                             <div id="fb-12-3"
-                                                class="fbox-12 bg--blue-300 block-shadow r-12 mb-20 lockoffers">
+                                                class="fbox-12 block-shadow r-12 mb-20 lockoffers">
                                                 <!-- Icon -->
                                                 <div class="fbox-ico">
                                                     <div class="shape-ico">
@@ -205,16 +205,16 @@ body {
                                                 <!-- Text -->
                                                 <div class="fbox-txt">
                                                     <h6 class="s-12 color--grey">Loan Amount</h6>
-                                                    <p class="s-14 color--white">&#8377;
+                                                    <p class="s-14 ">&#8377;
                                                         {{ formatePriceIndia($item['loanAmount']) }}</p>
                                                     <hr class="custm-HR" />
 
                                                     <h6 class="s-12 color--grey">Max Tenure</h6>
-                                                    <p class="s-14 color--white">-- Months</p>
+                                                    <p class="s-14 ">-- Months</p>
                                                     <hr class="custm-HR" />
 
                                                     <h6 class="s-12 color--grey">Best Rate</h6>
-                                                    <p class="s-14 color--white">-.--% P.M</p>
+                                                    <p class="s-14 ">-.--% P.M</p>
                                                 </div>
                                             </div>
                                         </div>

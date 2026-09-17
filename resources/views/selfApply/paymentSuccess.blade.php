@@ -8,35 +8,35 @@
     <div class="container">
         <div class="row align-items-center justify-content-center">
             <div class="col-md-7 col-lg-7 col-12 m-auto">
-                <div class="bg--blue-100 p-4 text-start r-24">
+                <div class="bg-white p-4 text-start r-24">
                     <div class="card-body">
                         <div class="text-center mb-20">
                             <div class="mb-20">
                                 <i class="far fa-check-circle display-1 color--green-300"></i>
                             </div>
-                            <h3 class="fw-bolder color--white mb-0">Congratulations!,</h3>
+                            <h3 class="fw-bolder color--green-300 mb-0">Congratulations!,</h3>
                             <h3 class="fw-bolder color--green-300 mb-15">Payment Successful!</h3>
-                            <p class="mb-0 color--grey">Your payment has been successfully processed.</p>
-                            <p class="mb-0 color--grey mt-1">You can now access your pre-approved offers.</p>
+                            <p class="mb-0 ">Your payment has been successfully processed.</p>
+                            <p class="mb-0 mt-1">You can now access your pre-approved offers.</p>
                         </div>
                         <div class="text-center mb-20">
                             <div class="row g-3">
                                 <div class="col-lg-4 col-md-4 col-12">
                                     <div class="rounded-4 p-2 bg--blue-300 h-100">
                                         <p class="s-14 fw-bold mb-2 color--white">Customer Portal</p>
-                                        <p class="s-14 color--grey">Your service is active. Log in to the portal.</p>
+                                        <p class="s-14 color--white">Your service is active. Log in to the portal.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-12">
                                     <div class="rounded-4 p-2 bg--blue-300 h-100">
                                         <p class="s-14 fw-bold mb-2 color--white">Invoice</p>
-                                        <p class="s-14 color--grey">Invoice is available for download in portal.</p>
+                                        <p class="s-14 color--white">Invoice is available for download in portal.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-12">
                                     <div class="rounded-4 p-2 bg--blue-300 h-100">
                                         <p class="s-14 fw-bold mb-2 color--white">Consultant</p>
-                                        <p class="s-14 color--grey">Our team will contact you within 24 hrs.</p>
+                                        <p class="s-14 color--white">Our team will contact you within 24 hrs.</p>
                                     </div>
                                 </div>
                             </div>

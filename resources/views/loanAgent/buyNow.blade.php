@@ -80,7 +80,7 @@
                                 256-bit secure
                             </div>
                         </div>
-                        <div class="bg--blue-100 p-4 text-start">
+                        <div class="bg-white p-4 text-start">
                             <div class="card-body">
                                 <div class="row mb-3 contact-form-1">
                                     <div class="col-lg-12">
@@ -158,7 +158,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <h4 class="fw-bolder mb-10 color--white">Premium Subscription Offer</h4>
+                                <h4 class="fw-bolder mb-10">Premium Subscription Offer</h4>
                                 <p class="mb-20 color--grey mt-0">Your pre-approved loan is waiting. Purchase a subscription
                                     to
                                     proceed. <span class="text-danger">- Offer Valid till 12 am only!</span></p>
@@ -169,7 +169,7 @@
                                         value="">
                                     <div class="row gx-3 gy-3">
                                         <div class="col-lg-6 col-md-6 col-12">
-                                            <label class="bg--blue-300 r-24 overflow-hidden  w-100 subscription-card">
+                                            <label class=" r-24 overflow-hidden  w-100 subscription-card">
                                                 <input name="plan" value="1" class="radio d-none" type="radio"
                                                     checked data-plan="Self-Apply">
                                                 <div class="plan-details border-0 p-0">
@@ -183,8 +183,8 @@
                                                         77%
                                                         OFF
                                                     </p>
-                                                    <div class="p-4 bg--blue-300">
-                                                        <h5 class="fw-bolder s-16 mb-10 color--white">Self-Apply Plan</h5>
+                                                    <div class="p-4">
+                                                        <h5 class="fw-bolder s-16 mb-10 ">Self-Apply Plan</h5>
                                                         <div class="price my-2">
                                                             <!-- Monthly Price -->
                                                             <div class="price2">
@@ -192,45 +192,45 @@
                                                                 <sup
                                                                     class="coins color--green-500"><strike>{{ intval($selfApply->amount) }}</strike></sup>
                                                                 <span
-                                                                    class="color--white">{{ intval($selfApply->offeramount) }}</span>
+                                                                    class="">{{ intval($selfApply->offeramount) }}</span>
                                                             </div>
                                                         </div>
 
                                                         <div class="order-summary">
                                                             <div class="order-row order-header">
-                                                                <span class="color--white text-uppercase">Items</span>
-                                                                <span class="color--white text-uppercase">Price</span>
+                                                                <span class=" text-uppercase">Items</span>
+                                                                <span class=" text-uppercase">Price</span>
                                                             </div>
 
                                                             <div class="order-row">
                                                                 <span class="color--grey">Price</span>
                                                                 <span
-                                                                    class="color--white">{{ formatePriceIndia($selfApply->amount) }}</span>
+                                                                    class="">{{ formatePriceIndia($selfApply->amount) }}</span>
                                                             </div>
 
                                                             <div class="order-row order-discount">
                                                                 <span class="color--grey">Discount</span>
-                                                                <span class="color--white">-
+                                                                <span class="">-
                                                                     {{ formatePriceIndia($selfApply->amount - $selfApply->offeramount) }}</span>
                                                             </div>
 
                                                             <div class="order-row">
                                                                 <span class="color--grey">Offer Amount</span>
                                                                 <span
-                                                                    class="color--white">{{ formatePriceIndia($selfApply->offeramount) }}</span>
+                                                                    class="">{{ formatePriceIndia($selfApply->offeramount) }}</span>
                                                             </div>
 
                                                             <div class="order-row">
                                                                 <span class="color--grey">GST</span>
-                                                                <span class="color--white">+
+                                                                <span class="">+
                                                                     {{ formatePriceIndia($selfApply->offeramount * 0.18) }}</span>
                                                             </div>
 
                                                             <div class="order-divider"></div>
 
                                                             <div class="order-row order-total">
-                                                                <h5 class="color--white">Total</h5>
-                                                                <h5 class="color--white">₹
+                                                                <h5 class="">Total</h5>
+                                                                <h5 class="">₹
                                                                     {{ formatePriceIndia($selfApply->offeramount + $selfApply->offeramount * 0.18) }}
                                                                 </h5>
 
@@ -247,9 +247,9 @@
                                         </div>
 
                                         <div class="col-lg-6 col-md-6 col-12">
-                                            <div class="bg--blue-300 p-4 r-24 subscription-card">
+                                            <div class=" p-4 r-24 subscription-card">
                                                 <div class="card-body">
-                                                    <p class="fw-bold mt-0 color--white">Subscription Benefits: : </p>
+                                                    <p class="fw-bold mt-0 ">Subscription Benefits: : </p>
 
                                                     <div class="cbox-1 ico-10 ml-0">
                                                         <div class="ico-wrap ms-0">
@@ -259,7 +259,7 @@
                                                         </div>
 
                                                         <div class="cbox-1-txt">
-                                                            <p class="s-14 mt-0 color--white ms-2"> Loan Process in
+                                                            <p class="s-14 mt-0  ms-2"> Loan Process in
                                                                 Multiple
                                                                 NBFCs</p>
                                                         </div>
@@ -271,7 +271,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="cbox-1-txt">
-                                                            <p class="s-14 mt-0 color--white ms-2"> 100% Online Financial
+                                                            <p class="s-14 mt-0  ms-2"> 100% Online Financial
                                                                 Consultation</p>
                                                         </div>
                                                     </div>
@@ -282,7 +282,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="cbox-1-txt">
-                                                            <p class="s-14 mt-0 color--white ms-2"> Access Personalized
+                                                            <p class="s-14 mt-0  ms-2"> Access Personalized
                                                                 Tracking
                                                                 Portal</p>
                                                         </div>
@@ -294,7 +294,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="cbox-1-txt">
-                                                            <p class="s-14 mt-0 color--white ms-2"> Dedicated Loan Expert
+                                                            <p class="s-14 mt-0  ms-2"> Dedicated Loan Expert
                                                                 Assigned</p>
                                                         </div>
                                                     </div>
@@ -305,7 +305,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="cbox-1-txt">
-                                                            <p class="s-14 mt-0 color--white ms-2"> Loan Processing Time:
+                                                            <p class="s-14 mt-0  ms-2"> Loan Processing Time:
                                                                 48
                                                                 Hours</p>
                                                         </div>
@@ -321,7 +321,7 @@
                                                             </div>
 
                                                             <!-- Rating Stars -->
-                                                            <div class="star-rating ico-10 clearfix color--white">
+                                                            <div class="star-rating ico-10 clearfix ">
                                                                 <span class="flaticon-star"></span>
                                                                 <span class="flaticon-star"></span>
                                                                 <span class="flaticon-star"></span>

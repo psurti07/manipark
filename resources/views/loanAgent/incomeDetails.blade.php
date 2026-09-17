@@ -24,22 +24,22 @@
         .input-group-text {
             color: #1E93E0 !important;
             border: none;
-            background-color: #1A2333 !important;
+            background-color: #dfeced !important;
             line-height: 1.3;
             border-top-left-radius: 5px;
             border-bottom-left-radius: 5px;
             border-top-right-radius: 0px;
             border-bottom-right-radius: 0px;
-            border-right: 1.21px solid #232C3D;
+            border-right: 1.21px solid #dfeced;
             height: 100%;
         }
 
         /*@media screen and (max-width:991px){
-                .input-group-text{ padding:1.06rem 1.06rem; }
-            }
-            @media screen and (min-width:992px) and (max-width:1199px){
-                .input-group-text{ padding:1rem 1rem;margin-top:1px; }
-            }*/
+                    .input-group-text{ padding:1.06rem 1.06rem; }
+                }
+                @media screen and (min-width:992px) and (max-width:1199px){
+                    .input-group-text{ padding:1rem 1rem;margin-top:1px; }
+                }*/
     </style>
 @endpush
 @section('content')
@@ -47,7 +47,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-9 col-lg-7 col-12 m-auto">
-                    <div id="hero-8-form" class="border border-primary r-26 bg--blue-100 p-0">
+                    <div id="hero-8-form" class="border border-primary r-26 bg-white p-0">
                         <div class="loan-steps-wrapper">
                             <div class="window-dots">
                                 <span class="dot red"></span>
@@ -86,11 +86,11 @@
                             </div>
                         </div>
                         <div class="text-start p-4">
-                            <h4 class="fw-bolder mb-5 color--white">Enter Following Details</h4>
+                            <h4 class="fw-bolder mb-5">Enter Following Details</h4>
                             <p class="mb-30 color--grey mt-0">Kindly enter your details for personalized offers.</p>
 
                             <form method="post" action="{{ route('loan.agent.loan.details.store') }}"
-                                class="request-form save-form-3 needs-validation request-main-form" novalidate>
+                                class="request-form from-main save-form-3 needs-validation request-main-form" novalidate>
                                 <div class="row">
                                     <div class="col-md-12 range">
                                         <div class="range__value form-group-range r-10 w-100">
@@ -101,33 +101,28 @@
                                     </div>
                                     <div class="range mt-2 d-block">
                                         <div class="d-flex justify-content-between required-amount mt-4">
-                                            <span class="text-uppercase s-12 mb-0 fw-normal color--white">enter required
+                                            <span class="text-uppercase s-12 mb-0 fw-normal">enter required
                                                 amount</span>
-                                            <span class="text-uppercase s-14 mb-0 fw-normal color--white">₹50K – ₹10L</span>
+                                            <span class="text-uppercase s-14 mb-0 fw-normal">₹50K – ₹10L</span>
                                         </div>
                                         <div class="form-group range__slider">
                                             <input type="range" step="10000">
                                             <input type="hidden" id="loanAmount" value="" name="loan_amount">
                                         </div>
                                         <div class="d-flex justify-content-between required-price">
-                                            <span
-                                                class="text-uppercase s-12 mb-2 mt-2 fw-normal color--white">₹50,000</span>
-                                            <span
-                                                class="text-uppercase s-14 mb-2 mt-2 fw-normal color--white">₹10,00,000</span>
+                                            <span class="text-uppercase s-12 mb-2 mt-2 fw-normal">₹50,000</span>
+                                            <span class="text-uppercase s-14 mb-2 mt-2 fw-normal">₹10,00,000</span>
                                         </div>
 
                                     </div>
 
-                                    <div class="col-md-6 mb-2">
-                                        <label for="form_mobile"
-                                            class="position-static p-0 text-uppercase s-14 mb-2 color--white text-start d-block">enter
-                                            monthly income</label>
+                                    <div class="col-md-6">
                                         <div class="input-group">
                                             <div class="input-group-prepend">
-                                                <span class="input-group-text px-4" id="basic-addon1">&#8377;</span>
+                                                <span class="input-group-text" id="basic-addon1">&#8377;</span>
                                             </div>
                                             <input type="text" name="monthly_income" id="monthly_income"
-                                                class="numeric-input form-control mb-0 bg--blue-300"
+                                                class="numeric-input form-control name"
                                                 placeholder="Enter Monthly Income (&#8377;)" autocomplete="off"
                                                 inputmode="numeric">
                                         </div>
@@ -135,24 +130,22 @@
                                         @endcomponent
                                     </div>
 
-                                    <div class="col-md-6 mb-2">
-                                        <label for="form_mobile"
-                                            class="position-static p-0 text-uppercase s-14 mb-2 color--white text-start d-block">enter
-                                            current emi (if any)</label>
+                                    <div class="col-md-6">
                                         <div class="input-group">
                                             <div class="input-group-prepend">
-                                                <span class="input-group-text px-4" id="basic-addon1">&#8377;</span>
+                                                <span class="input-group-text" id="basic-addon1">&#8377;</span>
                                             </div>
-                                            <input type="text" name="current_emi" id="current_emi" value=""
-                                                class="numeric-input form-control mb-0 bg--blue-300"
-                                                placeholder="Enter Current EMI (&#8377;) (If Any)" autocomplete="off"
+                                            <input type="text" name="current_emi" id="current_emi"
+                                                class="numeric-input form-control name"
+                                                placeholder="Enter Current EMI (&#8377;)" autocomplete="off"
                                                 inputmode="numeric">
                                         </div>
+                                        @component('components.ajax-error', ['field' => 'current_emi'])
+                                        @endcomponent
                                     </div>
 
                                     <div class="col-md-12 form-btn mt-2">
-                                        <button type="submit"
-                                            class="btn btn--theme hover--theme submit processNowBtn r-12"
+                                        <button type="submit" class="btn btn--theme hover--theme submit processNowBtn r-12"
                                             id="processNowBtn"
                                             onclick="_tfa.push({notify: 'event', name: 'self_lead', id: 1776413})">Process
                                             Now <span class="fbox-ico ico-10"> <span

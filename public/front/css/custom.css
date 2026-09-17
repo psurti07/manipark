@@ -702,12 +702,12 @@
 
 .contact-form.contact-form-1.save-form-4 .form-control,
 .contact-form.contact-form-1.save-form-4 .form-select {
-  background-color: #172235;
-  color: #fff !important;
+  background-color: #f5f6f8;
+  color: #576076 !important;
 }
 .contact-form.contact-form-main-wrap.career-form .form-control,
 .contact-form.contact-form-main-wrap.career-form .form-select{
-  color: #fff;
+  color: #576076;
 }
 
 .subscription-card .cbox-1-ico {
@@ -748,13 +748,13 @@
 .contact-form.contact-form-1 input:-webkit-autofill,
 .contact-form.contact-form-1 input:-webkit-autofill:hover,
 .contact-form.contact-form-1 input:-webkit-autofill:focus {
-  -webkit-text-fill-color: #fff !important;
-  -webkit-box-shadow: 0 0 0 1000px #18243A inset !important;
-  box-shadow: 0 0 0 1000px #18243A inset !important;
+  -webkit-text-fill-color: #3a4a56 !important;
+  -webkit-box-shadow: 0 0 0 1000px #f5f6f8 inset !important;
+  box-shadow: 0 0 0 1000px #f5f6f8 inset !important;
   transition: background-color 5000s ease-in-out 0s;
 }
 
 .request-form.request-main-form .form-control {
-  color: #fff;
+  color: #576076;
 }
 

@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row align-items-center justify-content-center">
             <div class="col-md-7 col-lg-7 col-12 m-auto">
-                <div class="bg--blue-100 p-4 text-start r-24">
+                <div class="bg-white p-4 text-start r-24">
                     <div class="card-body">
                         <div class="text-center mb-20">
                             <div class="mb-20">

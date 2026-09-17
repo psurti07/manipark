@@ -59,7 +59,7 @@
                                 256-bit secure
                             </div>
                         </div>
-                        <div class="bg--blue-100 p-4 text-start">
+                        <div class="bg-white p-4 text-start">
                             <form action="{{ route('loan.agent.personal.details.store') }}" id="personalDetailForm"
                                 class="contact-form contact-form-1 save-form-4" novalidate="novalidate" method="post"
                                 accept-charset="utf-8">
@@ -68,11 +68,8 @@
                                         <div class="col-lg-8">
                                             <div class="row gy-3">
                                                 <div class="col-lg-6">
-                                                    <div
-                                                        class="d-flex justify-content-between px-2 py-2 bg--blue-300 rounded-pill">
-
-                                                        <div
-                                                            class="d-flex align-items-center justify-content-between w-100">
+                                                    <div class="d-flex justify-content-between px-2 py-2 bg--blue-300 rounded-pill">
+                                                        <div class="d-flex align-items-center justify-content-between w-100">
                                                             <div>
                                                                 <div class="fbox-ico ico-12 mb-0">
                                                                     <div class="fbox-image r-100 bg--blue-400">
@@ -118,7 +115,7 @@
                                     </div>
 
 
-                                    <h4 class="color--white  mb-10 w-700 d-block">Personal Details
+                                    <h4 class=" mb-10 w-700 d-block">Personal Details
                                     </h4>
                                     <p class="mt-1 color--grey">For Our Experts To Analyze Your Loan Requirements.
                                     </p>
@@ -126,7 +123,7 @@
                                     <div class="row">
                                         <div class="col-md-6 col-sm-12 mb-4">
                                             <label for="firstname"
-                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal color--white">First
+                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal">First
                                                 Name *</label>
                                             <div class="form-group form-floating">
                                                 <input id="firstname" name="firstname" type="text"
@@ -139,7 +136,7 @@
                                         </div>
                                         <div class="col-md-6 col-sm-12 mb-4">
                                             <label for="lastname"
-                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal color--white">Last
+                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal">Last
                                                 Name *</label>
                                             <div class="form-group form-floating">
                                                 <input id="lastname" name="lastname" type="text"
@@ -152,7 +149,7 @@
                                         </div>
                                         <div class="col-md-6 col-sm-12 mb-4">
                                             <label for="email"
-                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal color--white">Email
+                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal">Email
                                                 *</label>
                                             <div class="form-group form-floating">
                                                 <input id="email" name="email" type="email"
@@ -165,7 +162,7 @@
                                         </div>
                                         <div class="col-md-6 col-sm-12 mb-4">
                                             <label for="pincode"
-                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal color--white">Pincode
+                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal">Pincode
                                                 *</label>
                                             <div class="form-group form-floating">
                                                 <input id="pincode" name="pincode" type="text"
@@ -182,7 +179,7 @@
                                         </div>
                                         <div class="col-md-6 col-sm-12 mb-4">
                                             <label for="city"
-                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal color--white">City
+                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal">City
                                                 *</label>
                                             <div class="form-group form-floating">
                                                 <input id="city" name="city" type="text"
@@ -195,7 +192,7 @@
                                         </div>
                                         <div class="col-md-6 col-sm-12 mb-4">
                                             <label for="state"
-                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal color--white">State
+                                                class="position-static p-0 text-uppercase s-14 mb-1 fw-normal">State
                                                 *</label>
                                             <div class="form-group form-floating">
                                                 <!--<input id="state" name="state"  type="text" class="form-control mb-0" placeholder="" value="{{ old('state') }}">-->

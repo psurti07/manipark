@@ -5807,7 +5807,8 @@ span.sm-info {
 }
 
 .request-form .form-control:focus {
-    background-color: #1A2333;
+    background-color: #f5f6f8;
+    color: #000;
     /* border-color: #1680fb; */
     outline: 0;
     box-shadow: none;
@@ -13396,7 +13397,7 @@ body.theme--dark {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background: #1A2333;
+    background: #dfeced ;
 }
 
 
