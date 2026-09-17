@@ -3,9 +3,9 @@
 return [
     'APP_NAME'          => env('APP_NAME'),
 
-    'COMPANY_CODE'          => 'WSMDRA123',
-    'PRODUCT_CODE_SELFAPPLY'  => 'SELFAPPLY',
-    'PRODUCT_CODE_LOANAGENT'  => 'HIRELOAN',
+    'COMPANY_CODE'          => '#',
+    'PRODUCT_CODE_SELFAPPLY'  => '#',
+    'PRODUCT_CODE_LOANAGENT'  => '#',
     'COMPANY_NAME'          => env('COMPANY_NAME'),
     'COMPANY_ADDRESS'       => env('COMPANY_ADDRESS'),
     'COMPANY_MOBILE'       => env('COMPANY_MOBILE'),
