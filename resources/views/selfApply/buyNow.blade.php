@@ -182,7 +182,7 @@ a#failed-btn:hover {
                                                 OFF
                                             </p>
                                             <div class="p-4 ">
-                                                <h5 class="fw-bolder s-16 mb-10 ">Self-Apply Plan</h5>
+                                                <h5 class="fw-bolder s-16 mb-10 ">Loan Application Plan</h5>
                                                 <div class="price my-2">
                                                     <!-- Monthly Price -->
                                                     <div class="price2">

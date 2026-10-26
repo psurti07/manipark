@@ -46,13 +46,11 @@
 
                                 <li class="nl-simple" aria-haspopup="true">
                                     <a href="{{ route('self.apply.main') }}"
-                                        class="btn r-04 btn--green-400 hover--tra-black last-link rounded-pill d-md-none d-block">Self
-                                        Apply</a>
+                                        class="btn r-04 btn--green-400 hover--tra-black last-link rounded-pill d-md-none d-block">Loan Application</a>
                                 </li>
                                 <li class="nl-simple" aria-haspopup="true">
                                     <a href="{{ route('loan.agent.main') }}"
-                                        class="btn r-04 btn--green-400 hover--tra-black last-link rounded-pill d-md-none d-block">Hire
-                                        an Agent</a>
+                                        class="btn r-04 btn--green-400 hover--tra-black last-link rounded-pill d-md-none d-block">Loan Advisor</a>
                                 </li>
                             </ul>
                         </nav>
@@ -64,13 +62,11 @@
                             </li>
                             <li class="nl-simple me-2" aria-haspopup="true">
                                 <a href="{{ route('self.apply.main') }}"
-                                    class="btn r-04 btn--green-400 hover--tra-black last-link rounded-pill">Self
-                                    Apply</a>
+                                    class="btn r-04 btn--green-400 hover--tra-black last-link rounded-pill">Loan Application</a>
                             </li>
                             <li class="nl-simple" aria-haspopup="true">
                                 <a href="{{ route('loan.agent.main') }}"
-                                    class="btn r-04 btn--green-400 hover--tra-black last-link rounded-pill">Hire an
-                                    Agent</a>
+                                    class="btn r-04 btn--green-400 hover--tra-black last-link rounded-pill">Loan Advisor</a>
                             </li>
                         </ul>
                     </div>

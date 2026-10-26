@@ -56,6 +56,64 @@
                 margin-top: 1px;
             }
         }
+
+
+
+        .loan-toggle,
+        .employment-toggle {
+            display: flex;
+            width: 100%;
+            padding: 5px;
+            background: #f1f8f5;
+            border: 1px solid #e1eee8;
+            border-radius: 50px;
+        }
+
+        .loan-toggle-option,
+        .employment-option {
+            flex: 1;
+            margin: 0;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .loan-toggle-option input,
+        .employment-option input {
+            display: none;
+        }
+
+        .loan-toggle-option span,
+        .employment-option span {
+            display: block;
+            padding: 11px 15px;
+            border-radius: 50px;
+            color: #46546b;
+            font-size: 14px;
+            font-weight: 600;
+            transition: .2s ease;
+        }
+
+        /* Selected Loan */
+        .loan-toggle-option input:checked+span {
+            background: #173f69;
+            color: #fff;
+        }
+
+        /* Selected Employment */
+        .employment-option input:checked+span {
+            background: #0d8087;
+            color: #fff;
+        }
+
+        /* Mobile */
+        @media (max-width: 575px) {
+
+            .loan-toggle-option span,
+            .employment-option span {
+                padding: 10px 8px;
+                font-size: 13px;
+            }
+        }
     </style>
 @endpush
 @section('content')
@@ -63,77 +121,8 @@
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-md-6 col-lg-6 order-lg-1 order-2">
-                    <div class="mt-30 mb-20">
-                        <h2 class="s-50 mb-5 color--white">Finance Made More <span class="color--green-500">Flexible</span>
-                        </h2>
-                        <h3 class="s-24 mb-15 color--white">Explore <span class="color--green-500">Personal Loan</span>
-                            Solutions That Fit Your Needs</h3>
-                        <p class="color--white">Complete a simple digital application and explore available loan offers
-                            based on lender policies and eligibility. </p>
-                    </div>
-
-                    <div class="d-none d-md-block d-lg-block">
-                        <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 mb-10 mt-4">
-                            <div class="col">
-                                <div class="fbox-7 fbox--hover fb-1 r-12 p-3 border">
-                                    <div class="fbox-ico mb-3">
-
-                                        <div class="fbox-image ico-10">
-                                            <span class="flaticon-shield color--green-500 lh-1"></span>
-                                        </div>
-                                    </div>
-                                    <div class="fbox-txt">
-                                        <h4 class="s-16 w-700 color--white">Secure Process</h4>
-                                        <p class="mb-0 color--purple-300 mt-0">Protected application</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col">
-                                <div class="fbox-7 fbox--hover fb-1 r-12 p-3 border">
-                                    <div class="fbox-ico mb-3">
-                                        <div class="fbox-image ico-10">
-                                            <span class="flaticon-check color--green-500 lh-1"></span>
-                                        </div>
-                                    </div>
-                                    <div class="fbox-txt">
-                                        <h4 class="s-16 w-700 color--white">Simple Steps</h4>
-                                        <p class="mb-0 color--purple-300 mt-0">Easy online journey</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col">
-                                <div class="fbox-7 fbox--hover fb-1 r-12 p-3 border">
-                                    <div class="fbox-ico mb-3">
-                                        <div class="fbox-image ico-10">
-
-                                            <i class="fas fa-percent color--green-500 lh-1"></i>
-                                        </div>
-                                    </div>
-                                    <div class="fbox-txt">
-                                        <h4 class="s-16 w-700 color--white">Flexible Terms</h4>
-                                        <p class="mb-0 color--purple-300 mt-0">Lender-based offers</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <p class="btn-txt mb-3 ico-15 color--white"><span
-                                    class="flaticon-check color--green-300"></span> Convenient Digital Process</p>
-                            <p class="btn-txt mb-3 ico-15 color--white"><span
-                                    class="flaticon-check color--green-300"></span> Multiple Lending Partners</p>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <p class="btn-txt mb-3 ico-15 color--white"><span
-                                    class="flaticon-check color--green-300"></span> Simple Documentation</p>
-                            <p class="btn-txt mb-3 ico-15 color--white"><span
-                                    class="flaticon-check color--green-300"></span> Application Support Available</p>
-                        </div>
+                    <div class="home-img text-center">
+                        <img src="{{ asset('front/images/Personal-Loan-By-States.webp') }}" alt="manipark" class="w-100">
                     </div>
                 </div>
 
@@ -145,56 +134,57 @@
                             class="request-form from-main save-form-1 needs-validation" novalidate>
                             <div class="row g-2">
                                 <div class="col-md-12">
-                                    <div class="form-check ps-0">
-                                        <div class="row gx-2">
-                                            <div class="col-md-6 col-lg-6 col-sm-6 mb-2">
-                                                <fieldset class="picker1">
-                                                    <label class="card" for="personalloan">
-                                                        <input type="radio" name="loan_type" id="personalloan"
-                                                            value="1" class="radio" checked>
-                                                        <span class="plan-details">
-                                                            <span class="plan-type"><i class="far fa-user me-2"></i>Personal
-                                                                Loan</span>
-                                                        </span>
-                                                    </label>
-                                                </fieldset>
-                                            </div>
-                                            <div class="col-md-6 col-lg-6 col-sm-6 mb-2">
-                                                <fieldset class="picker1">
-                                                    <label class="card" for="businessloan">
-                                                        <input type="radio" name="loan_type" id="businessloan"
-                                                            value="2" class="radio">
-                                                        <span class="plan-details">
-                                                            <span class="plan-type color--grey  "><i
-                                                                    class="fas fa-briefcase me-2"></i>Business Loan</span>
-                                                        </span>
-                                                    </label>
-                                                </fieldset>
-                                            </div>
-                                        </div>
+                                    <div class="loan-toggle">
+
+                                        <label class="loan-toggle-option">
+                                            <input type="radio" name="loan_type" id="personalloan" value="1" checked>
+                                            <span>Personal Loan</span>
+                                        </label>
+
+                                        <label class="loan-toggle-option">
+                                            <input type="radio" name="loan_type" id="businessloan" value="2">
+                                            <span>Business Loan</span>
+                                        </label>
+
                                     </div>
                                 </div>
-                                <div class="col-md-12">
-                                    <div class="form-group form-floating">
-                                        <input type="hidden" name="acc_type" value="2" id="acc_type">
 
-                                        <div class="mb-2">
-                                            <select name="user_type" id="user_type" class="form-control form-select r-11">
-                                                <!-- Personal Options -->
-                                                <option value="1" data-loan="personal">Salaried</option>
-                                                <option value="2" data-loan="personal">Self Employed</option>
 
-                                                <!-- Business Options -->
-                                                <option value="3" data-loan="business" style="display:none;">Small
-                                                    Business
-                                                </option>
-                                                <option value="4" data-loan="business" style="display:none;">Audited
-                                                    Report
-                                                </option>
-                                            </select>
-                                        </div>
+                                <div class="col-md-12 my-3">
+
+                                    <label class="form-label text-uppercase mb-2">
+                                        Employment Type
+                                    </label>
+
+                                    <input type="hidden" name="acc_type" value="2" id="acc_type">
+
+                                    <div class="employment-toggle">
+
+                                        <!-- Personal Options -->
+                                        <label class="employment-option personal-option">
+                                            <input type="radio" name="user_type" value="1" checked>
+                                            <span>Salaried</span>
+                                        </label>
+
+                                        <label class="employment-option personal-option">
+                                            <input type="radio" name="user_type" value="2">
+                                            <span>Self-Employed</span>
+                                        </label>
+
+                                        <!-- Business Options -->
+                                        <label class="employment-option business-option d-none">
+                                            <input type="radio" name="user_type" value="3">
+                                            <span>Small Business</span>
+                                        </label>
+
+                                        <label class="employment-option business-option d-none">
+                                            <input type="radio" name="user_type" value="4">
+                                            <span>Audited Report</span>
+                                        </label>
+
                                     </div>
                                 </div>
+
                                 <div class="col-md-12">
                                     <div class="input-group">
                                         <div class="input-group-prepend">
@@ -202,8 +192,7 @@
                                         </div>
                                         <input type="text" name="mobile" id="mobile"
                                             class="numeric-input form-control name" placeholder="Enter Your Mobile*"
-                                            autocomplete="off" required maxlength="10" minlength="10"
-                                            inputmode="numeric">
+                                            autocomplete="off" required maxlength="10" minlength="10" inputmode="numeric">
                                     </div>
                                     @component('components.ajax-error', ['field' => 'mobile'])
                                     @endcomponent
@@ -320,7 +309,7 @@
                                 </div>
                             </div>
                             <div class="fbox-txt">
-                                <h4 class="s-15 w-700 color--white">Self-Apply Feature</h4>
+                                <h4 class="s-15 w-700 color--white">Loan Advisor Feature</h4>
                                 <p class="color--grey s-12">Take charge of your own finances while reaping the benefits of
                                     impeccable provisions.</p>
                             </div>
@@ -524,39 +513,82 @@
 @push('scripts')
     <script>
         document.addEventListener("DOMContentLoaded", function() {
+
             const personalLoan = document.getElementById("personalloan");
             const businessLoan = document.getElementById("businessloan");
 
-            const userTypeSelect = document.getElementById("user_type");
-            const options = userTypeSelect.querySelectorAll("option");
+            const personalOptions = document.querySelectorAll(".personal-option");
+            const businessOptions = document.querySelectorAll(".business-option");
+
+            const accType = document.getElementById("acc_type");
 
             function toggleUserTypeOptions() {
-                let type = "personal";
-                if (businessLoan && businessLoan.checked) type = "business";
 
-                // Show/Hide options based on loan type
-                options.forEach(option => {
-                    if (option.dataset.loan === type) {
-                        option.style.display = "block";
-                    } else {
-                        option.style.display = "none";
+                if (businessLoan.checked) {
+
+                    // Business Loan
+                    personalOptions.forEach(option => {
+                        option.classList.add("d-none");
+
+                        const radio = option.querySelector('input[type="radio"]');
+                        if (radio) {
+                            radio.checked = false;
+                        }
+                    });
+
+                    businessOptions.forEach(option => {
+                        option.classList.remove("d-none");
+                    });
+
+                    // Select first business option
+                    const firstBusinessRadio = businessOptions[0].querySelector(
+                        'input[type="radio"]'
+                    );
+
+                    if (firstBusinessRadio) {
+                        firstBusinessRadio.checked = true;
                     }
-                });
 
-                // If current selected option is hidden, select first visible one
-                const selectedOption = userTypeSelect.options[userTypeSelect.selectedIndex];
-                if (selectedOption.style.display === "none") {
-                    const firstVisible = [...options].find(opt => opt.style.display !== "none");
-                    if (firstVisible) userTypeSelect.value = firstVisible.value;
+                    // Business account type
+                    accType.value = "2";
+
+                } else {
+
+                    // Personal Loan
+                    businessOptions.forEach(option => {
+                        option.classList.add("d-none");
+
+                        const radio = option.querySelector('input[type="radio"]');
+                        if (radio) {
+                            radio.checked = false;
+                        }
+                    });
+
+                    personalOptions.forEach(option => {
+                        option.classList.remove("d-none");
+                    });
+
+                    // Select first personal option
+                    const firstPersonalRadio = personalOptions[0].querySelector(
+                        'input[type="radio"]'
+                    );
+
+                    if (firstPersonalRadio) {
+                        firstPersonalRadio.checked = true;
+                    }
+
+                    // Personal account type
+                    accType.value = "2";
                 }
             }
 
-            // Run on load
+            // Initial load
             toggleUserTypeOptions();
 
-            // Run on change
-            if (personalLoan) personalLoan.addEventListener("change", toggleUserTypeOptions);
-            if (businessLoan) businessLoan.addEventListener("change", toggleUserTypeOptions);
+            // Loan type change
+            personalLoan.addEventListener("change", toggleUserTypeOptions);
+            businessLoan.addEventListener("change", toggleUserTypeOptions);
+
         });
     </script>
 

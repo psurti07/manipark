@@ -814,16 +814,16 @@ class LoanAgentController extends Controller
                     $api_response = sendOrderData(json_encode($remote_data));
                 }
                 if ($response2 > 0) {
-                    $redRoute = 'loan-agent/paymentSuccess'; // Row was updated
+                    $redRoute = 'loan-advisor/paymentSuccess'; // Row was updated
                 } else {
-                    $redRoute = 'loan-agent/paymentFailed'; // No rows were updated
+                    $redRoute = 'loan-advisor/paymentFailed'; // No rows were updated
                 }
                 return redirect($redRoute);
             } else {
-                return redirect("loan-agent/paymentFailed");
+                return redirect("loan-advisor/paymentFailed");
             }
         } catch (\Exception $e) {
-            Log::error('loan agent buydigital checkout method error occured: ' . $e->getMessage());
+            Log::error('loan advisor buydigital checkout method error occured: ' . $e->getMessage());
             return redirect('/error')->with('error', 'Oops! Something went wrong.');
         }
     }
@@ -898,7 +898,7 @@ class LoanAgentController extends Controller
                         'zip' => $userData->pincode,
                         'orderid' => $orderId,
                         'odamount' => $orderData->orderamount,
-                        'sourceurl' => 'https://manipark.com/loan-agent/paymentSuccess'
+                        'sourceurl' => 'https://manipark.com/loan-advisor/paymentSuccess'
                     );
 
                     if ($fbleads) {

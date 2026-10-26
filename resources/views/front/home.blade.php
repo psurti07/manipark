@@ -15,7 +15,7 @@
                 <div class="row d-flex align-items-center">
                     <div class="col-md-6 col-lg-6 col-12">
                         <div class="home-img text-center">
-                            <img src="{{ asset('front/images/hero-image.png') }}" alt="manipark" class="w-100">
+                            <img src="{{ asset('front/images/self-employed.webp') }}" alt="manipark" class="w-100">
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-12 align-item-center justyfy-contant-center m-auto">
@@ -28,11 +28,11 @@
                             </p>
                             <div>
                                 <a href="{{ route('self.apply.main') }}"
-                                    class="btn r-04 btn--theme hover--tra-white last-link rounded-pill">Self Apply <span
+                                    class="btn r-04 btn--theme hover--tra-white last-link rounded-pill">Loan Application <span
                                         class="fbox-ico ico-10"> <span
                                             class="flaticon-right-arrow  ico-20 ms-1"></span></span></a>
                                 <a href="{{ route('loan.agent.main') }}"
-                                    class="btn r-04 btn--theme hover--tra-white last-link rounded-pill">Hire an Agent<span
+                                    class="btn r-04 btn--theme hover--tra-white last-link rounded-pill">Loan Advisor<span
                                         class="fbox-ico ico-10"> <span
                                             class="flaticon-right-arrow  ico-20 ms-1"></span></span></a>
                             </div>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img-block left-column mb-0">
-                        <img class="img-fluid" src="{{ asset('front/images/Compny-page-1.png') }}" alt="content-image">
+                        <img class="img-fluid" src="{{ asset('front/images/Personal-Loan-By-Cities.webp') }}" alt="content-image">
                     </div>
                 </div>
             </div>
@@ -133,7 +133,7 @@
                                 </h4>
                             </div>
                             <div class="fbox-txt text-start">
-                                <p class="color--grey mt-0">Explore multiple financial services backed by our leading NBFC
+                                <p class="color--white mt-0">Explore multiple financial services backed by our leading NBFC
                                     network.</p>
                             </div>
                         </div>
@@ -153,7 +153,7 @@
                                     Online Process</h4>
                             </div>
                             <div class="fbox-txt text-start">
-                                <p class="color--grey">Enjoy a smooth and hassle-free loan experience without stepping out
+                                <p class="color--white">Enjoy a smooth and hassle-free loan experience without stepping out
                                     of your home.</p>
                             </div>
                         </div>
@@ -172,7 +172,7 @@
                                     Feature</h4>
                             </div>
                             <div class="fbox-txt text-start">
-                                <p class="color--grey">Enjoy the freedom to make smarter financial decisions with expert
+                                <p class="color--white">Enjoy the freedom to make smarter financial decisions with expert
                                     support.</p>
                             </div>
                         </div>
@@ -208,7 +208,7 @@
                             <div class="col-lg-7 p-0">
                                 <div
                                     class="fbox-txt text-start bg-white d-flex flex-column h-100 align-items-start justify-content-center p-4">
-                                    <h3 class="s-22 w-700">Quick Self-Apply</h3>
+                                    <h3 class="s-22 w-700">Quick Loan Application</h3>
                                     <p class="mb-20 color--grey">Relax and let our experienced loan specialist manage the
                                         entire
                                         process for
@@ -226,7 +226,7 @@
                             <div class="col-lg-7 p-0">
                                 <div
                                     class="fbox-txt text-start bg-white d-flex flex-column h-100 align-items-start justify-content-center p-4">
-                                    <h3 class="s-22 w-700">Quick Self-Apply</h3>
+                                    <h3 class="s-22 w-700">Quick Loan Advisor</h3>
                                     <p class="mb-20 color--grey">Relax and let our experienced loan specialist manage the
                                         entire
                                         process for
@@ -316,7 +316,7 @@
     <!-- Quick and swift steps section end -->
 
     <!-- Our Partners section start  -->
-    <section id="integrations-2" class="py-80 integrations-section">
+    {{-- <section id="integrations-2" class="py-80 integrations-section">
         <div class="container">
             <div class="r-12 text-center">
                 <div class="row justify-content-center">
@@ -343,7 +343,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- Our Partners section end  -->
     
     <!-- Contact Start -->

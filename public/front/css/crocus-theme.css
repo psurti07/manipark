@@ -13429,8 +13429,8 @@ body.theme--dark {
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: #5FB33B;
-    border: #fff 5px solid;
+    background: #fff;
+    border: #1a174c 5px solid;
     cursor: pointer;
     -webkit-transition: background .15s ease-in-out;
     transition: background .15s ease-in-out;

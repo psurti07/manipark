@@ -514,7 +514,7 @@ class SelfApplyController extends Controller
     /* buy digital plan zaakpay function handle */
     public function buyDigitalPlan(Request $request)
     {
-        $redRoute = 'self-apply/paymentFailed';
+        $redRoute = 'loan-application/paymentFailed';
         try {
             $grandtotal = $netamount = $cgstamount = $sgstamount = $igstamount = 0;
             $meta = selfApplyMeta();
@@ -783,13 +783,13 @@ class SelfApplyController extends Controller
                         
                         $api_response = sendOrderData(json_encode($remote_data));
                     }
-                    $redRoute = 'self-apply/paymentSuccess'; // Row was updated
+                    $redRoute = 'loan-application/paymentSuccess'; // Row was updated
                 } else {
-                    $redRoute = 'self-apply/paymentFailed'; // No rows were updated
+                    $redRoute = 'loan-application/paymentFailed'; // No rows were updated
                 }
                 return redirect($redRoute);
             } else {
-                return redirect("self-apply/paymentFailed");
+                return redirect("loan-application/paymentFailed");
             }
         } catch (\Exception $e) {
             Log::error('self apply buydigital checkout method error occured: ' . $e->getMessage());

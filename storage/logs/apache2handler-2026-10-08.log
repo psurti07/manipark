@@ -1,0 +1,291 @@
+[2026-10-08 12:43:38] local.ERROR: Route [webinar.index] not defined. {"view":{"view":"D:\\workplace\\www\\manipark\\resources\\views\\partials\\front\\footer.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-167078745 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#524</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-167078745\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","meta":"<pre class=sf-dump id=sf-dump-327101988 data-indent-pad=\"  \"><span class=sf-dump-note>array:3</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>keywords</span>\" => \"<span class=sf-dump-str title=\"192 characters\">instant online personal loans in India, low-interest personal loans with fast approval, quick loan application process, minimal documentation loans, personalized loan solutions, Manipark loans</span>\"
+  \"<span class=sf-dump-key>title</span>\" => \"<span class=sf-dump-str title=\"72 characters\">Instant Online Personal Loans With Low Interest Rates And Fast Approvals</span>\"
+  \"<span class=sf-dump-key>description</span>\" => \"<span class=sf-dump-str title=\"179 characters\">Apply for instant online personal loans at low interest rates. Experience quick approvals, minimal documentation, and personalized loan solutions tailored to your financial needs.</span>\"
+</samp>]
+</pre><script>Sfdump(\"sf-dump-327101988\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","msg":"<pre class=sf-dump id=sf-dump-1631987923 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\InfoPages</span> {<a class=sf-dump-ref>#1222</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"10 characters\">info_pages</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>content</span>\" => \"\"\"
+      <span class=sf-dump-str title=\"337 characters\">&lt;h1 dir=&quot;ltr&quot;&gt;&amp;nbsp;&lt;/h1&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+      <span class=sf-dump-str title=\"337 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+      <span class=sf-dump-str title=\"337 characters\">&lt;h4 dir=&quot;ltr&quot; style=&quot;text-align:center&quot;&gt;&lt;span style=&quot;font-size:16px&quot;&gt;&lt;strong&gt;Happy Ganesh Visarjan&lt;/strong&gt;&lt;/span&gt;&lt;/h4&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+      <span class=sf-dump-str title=\"337 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+      <span class=sf-dump-str title=\"337 characters\">&lt;h4 dir=&quot;ltr&quot; style=&quot;text-align:center&quot;&gt;&lt;br /&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+      <span class=sf-dump-str title=\"337 characters\">&lt;span style=&quot;font-size:14px&quot;&gt;Hello, Our Office will Remain closed on 06/09/2025 due to Ganesh Visarjan&amp;nbsp;Thanks, Wisemudra&lt;/span&gt;&lt;/h4&gt;</span>
+      \"\"\"
+    \"<span class=sf-dump-key>status</span>\" => <span class=sf-dump-num>2</span>
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>content</span>\" => \"\"\"
+      <span class=sf-dump-str title=\"337 characters\">&lt;h1 dir=&quot;ltr&quot;&gt;&amp;nbsp;&lt;/h1&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+      <span class=sf-dump-str title=\"337 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+      <span class=sf-dump-str title=\"337 characters\">&lt;h4 dir=&quot;ltr&quot; style=&quot;text-align:center&quot;&gt;&lt;span style=&quot;font-size:16px&quot;&gt;&lt;strong&gt;Happy Ganesh Visarjan&lt;/strong&gt;&lt;/span&gt;&lt;/h4&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+      <span class=sf-dump-str title=\"337 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+      <span class=sf-dump-str title=\"337 characters\">&lt;h4 dir=&quot;ltr&quot; style=&quot;text-align:center&quot;&gt;&lt;br /&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+      <span class=sf-dump-str title=\"337 characters\">&lt;span style=&quot;font-size:14px&quot;&gt;Hello, Our Office will Remain closed on 06/09/2025 due to Ganesh Visarjan&amp;nbsp;Thanks, Wisemudra&lt;/span&gt;&lt;/h4&gt;</span>
+      \"\"\"
+    \"<span class=sf-dump-key>status</span>\" => <span class=sf-dump-num>2</span>
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>false</span>
+  +<span class=sf-dump-public title=\"Public property\">usesUniqueIds</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: <span class=sf-dump-note>array:4</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+    <span class=sf-dump-index>1</span> => \"<span class=sf-dump-str title=\"4 characters\">slug</span>\"
+    <span class=sf-dump-index>2</span> => \"<span class=sf-dump-str title=\"7 characters\">content</span>\"
+    <span class=sf-dump-index>3</span> => \"<span class=sf-dump-str title=\"8 characters\">rec_date</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1631987923\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","lists":"<pre class=sf-dump id=sf-dump-1120984638 data-indent-pad=\"  \"><span class=sf-dump-note>array:2</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>list</span>\" => \"\"\"
+    <span class=sf-dump-str title=\"3184 characters\">&lt;div class=&quot;col company&quot; data-index=&quot;0&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                            &lt;a href=&quot;javascript:;&quot; class=&quot;in_tool it-1 r-10&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                &lt;div class=&quot;bg--white-100 block-shadow r-10 mb-0&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                    &lt;img class=&quot;img-fluid&quot; src=&quot;https://manage.manipark.com/public/upload/banks/1738654938.png&quot; alt=&quot;Prfer&quot; width=&quot;auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                &lt;h6 class=&quot;s-14 w-700&quot;&gt;Prfer&lt;/h6&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                            &lt;/a&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                        &lt;/div&gt;&lt;div class=&quot;col company&quot; data-index=&quot;1&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                            &lt;a href=&quot;javascript:;&quot; class=&quot;in_tool it-1 r-10&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                &lt;div class=&quot;bg--white-100 block-shadow r-10 mb-0&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                    &lt;img class=&quot;img-fluid&quot; src=&quot;https://manage.manipark.com/public/upload/banks/1746170219.png&quot; alt=&quot;Werize&quot; width=&quot;auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                &lt;h6 class=&quot;s-14 w-700&quot;&gt;Werize&lt;/h6&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                            &lt;/a&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                        &lt;/div&gt;&lt;div class=&quot;col company&quot; data-index=&quot;2&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                            &lt;a href=&quot;javascript:;&quot; class=&quot;in_tool it-1 r-10&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                &lt;div class=&quot;bg--white-100 block-shadow r-10 mb-0&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                    &lt;img class=&quot;img-fluid&quot; src=&quot;https://manage.manipark.com/public/upload/banks/1746170179.png&quot; alt=&quot;Faircent&quot; width=&quot;auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                &lt;h6 class=&quot;s-14 w-700&quot;&gt;Faircent&lt;/h6&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                            &lt;/a&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                        &lt;/div&gt;&lt;div class=&quot;col company&quot; data-index=&quot;3&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                            &lt;a href=&quot;javascript:;&quot; class=&quot;in_tool it-1 r-10&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                &lt;div class=&quot;bg--white-100 block-shadow r-10 mb-0&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                    &lt;img class=&quot;img-fluid&quot; src=&quot;https://manage.manipark.com/public/upload/banks/1738655142.png&quot; alt=&quot;Finnable&quot; width=&quot;auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                &lt;h6 class=&quot;s-14 w-700&quot;&gt;Finnable&lt;/h6&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                            &lt;/a&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                        &lt;/div&gt;&lt;div class=&quot;col company&quot; data-index=&quot;4&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                            &lt;a href=&quot;javascript:;&quot; class=&quot;in_tool it-1 r-10&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                &lt;div class=&quot;bg--white-100 block-shadow r-10 mb-0&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                    &lt;img class=&quot;img-fluid&quot; src=&quot;https://manage.manipark.com/public/upload/banks/1746170211.png&quot; alt=&quot;Urbanmoney&quot; width=&quot;auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                &lt;h6 class=&quot;s-14 w-700&quot;&gt;Urbanmoney&lt;/h6&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                            &lt;/a&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                        &lt;/div&gt;&lt;div class=&quot;col company&quot; data-index=&quot;5&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                            &lt;a href=&quot;javascript:;&quot; class=&quot;in_tool it-1 r-10&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                &lt;div class=&quot;bg--white-100 block-shadow r-10 mb-0&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                    &lt;img class=&quot;img-fluid&quot; src=&quot;https://manage.manipark.com/public/upload/banks/1746170140.png&quot; alt=&quot;Cholamandalam&quot; width=&quot;auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                                &lt;h6 class=&quot;s-14 w-700&quot;&gt;Cholamandalam&lt;/h6&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                            &lt;/a&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"3184 characters\">                        &lt;/div&gt;</span>
+    \"\"\"
+  \"<span class=sf-dump-key>carousel</span>\" => \"\"\"
+    <span class=sf-dump-str title=\"2168 characters\">&lt;div class=&quot;bg--white-100 border border-primary r-10 mb-10&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                    &lt;a href=&quot;javascript:;&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                        &lt;img class=&quot;img-fluid&quot; src=&quot;https://manage.manipark.com/public/upload/banks/1738654938.png&quot; alt=&quot;Prfer&quot; width=&quot;auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                    &lt;/a&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                &lt;/div&gt;&lt;div class=&quot;bg--white-100 border border-primary r-10 mb-10&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                    &lt;a href=&quot;javascript:;&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                        &lt;img class=&quot;img-fluid&quot; src=&quot;https://manage.manipark.com/public/upload/banks/1746170219.png&quot; alt=&quot;Werize&quot; width=&quot;auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                    &lt;/a&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                &lt;/div&gt;&lt;div class=&quot;bg--white-100 border border-primary r-10 mb-10&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                    &lt;a href=&quot;javascript:;&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                        &lt;img class=&quot;img-fluid&quot; src=&quot;https://manage.manipark.com/public/upload/banks/1746170179.png&quot; alt=&quot;Faircent&quot; width=&quot;auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                    &lt;/a&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                &lt;/div&gt;&lt;div class=&quot;bg--white-100 border border-primary r-10 mb-10&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                    &lt;a href=&quot;javascript:;&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                        &lt;img class=&quot;img-fluid&quot; src=&quot;https://manage.manipark.com/public/upload/banks/1738655142.png&quot; alt=&quot;Finnable&quot; width=&quot;auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                    &lt;/a&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                &lt;/div&gt;&lt;div class=&quot;bg--white-100 border border-primary r-10 mb-10&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                    &lt;a href=&quot;javascript:;&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                        &lt;img class=&quot;img-fluid&quot; src=&quot;https://manage.manipark.com/public/upload/banks/1746170211.png&quot; alt=&quot;Urbanmoney&quot; width=&quot;auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                    &lt;/a&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                &lt;/div&gt;&lt;div class=&quot;bg--white-100 border border-primary r-10 mb-10&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                    &lt;a href=&quot;javascript:;&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                        &lt;img class=&quot;img-fluid&quot; src=&quot;https://manage.manipark.com/public/upload/banks/1746170140.png&quot; alt=&quot;Cholamandalam&quot; width=&quot;auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                    &lt;/a&gt;<span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+    <span class=sf-dump-str title=\"2168 characters\">                                &lt;/div&gt;</span>
+    \"\"\"
+</samp>]
+</pre><script>Sfdump(\"sf-dump-1120984638\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [webinar.index] not defined. at D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:477)
+[stacktrace]
+#0 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(811): Illuminate/Routing/UrlGenerator->route('webinar.index', Array, true)
+#1 D:/workplace/www/manipark/resources/views/partials/front/footer.blade.php(59): route('webinar.index')
+#2 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('D://workplace//ww...')
+#3 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate/Filesystem/Filesystem::Illuminate/Filesystem/{closure}()
+#4 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate/Filesystem/Filesystem->getRequire('D://workplace//ww...', Array)
+#5 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(72): Illuminate/View/Engines/PhpEngine->evaluatePath('D://workplace//ww...', Array)
+#6 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/View.php(207): Illuminate/View/Engines/CompilerEngine->get('D://workplace//ww...', Array)
+#7 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/View.php(190): Illuminate/View/View->getContents()
+#8 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/View.php(159): Illuminate/View/View->renderContents()
+#9 D:/workplace/www/manipark/resources/views/layouts/front.blade.php(12): Illuminate/View/View->render()
+#10 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('D://workplace//ww...')
+#11 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate/Filesystem/Filesystem::Illuminate/Filesystem/{closure}()
+#12 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate/Filesystem/Filesystem->getRequire('D://workplace//ww...', Array)
+#13 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(72): Illuminate/View/Engines/PhpEngine->evaluatePath('D://workplace//ww...', Array)
+#14 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/View.php(207): Illuminate/View/Engines/CompilerEngine->get('D://workplace//ww...', Array)
+#15 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/View.php(190): Illuminate/View/View->getContents()
+#16 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/View.php(159): Illuminate/View/View->renderContents()
+#17 D:/workplace/www/manipark/resources/views/front/home.blade.php(629): Illuminate/View/View->render()
+#18 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('D://workplace//ww...')
+#19 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate/Filesystem/Filesystem::Illuminate/Filesystem/{closure}()
+#20 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate/Filesystem/Filesystem->getRequire('D://workplace//ww...', Array)
+#21 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(72): Illuminate/View/Engines/PhpEngine->evaluatePath('D://workplace//ww...', Array)
+#22 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/View.php(207): Illuminate/View/Engines/CompilerEngine->get('D://workplace//ww...', Array)
+#23 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/View.php(190): Illuminate/View/View->getContents()
+#24 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/View.php(159): Illuminate/View/View->renderContents()
+#25 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate/View/View->render()
+#26 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate/Http/Response->setContent(Object(Illuminate/View/View))
+#27 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Routing/Router.php(918): Illuminate/Http/Response->__construct(Object(Illuminate/View/View), 200, Array)
+#28 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Routing/Router.php(885): Illuminate/Routing/Router::toResponse(Object(Illuminate/Http/Request), Object(Illuminate/View/View))
+#29 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Routing/Router.php(805): Illuminate/Routing/Router->prepareResponse(Object(Illuminate/Http/Request), Object(Illuminate/View/View))
+#30 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate/Routing/Router->Illuminate/Routing/{closure}(Object(Illuminate/Http/Request))
+#31 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#32 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#33 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#34 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#35 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#36 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#37 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#38 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#39 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#40 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#41 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#42 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#43 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#44 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#45 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Routing/Router.php(805): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#46 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#47 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#48 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#49 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#50 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#51 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#52 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#53 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#54 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#55 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#56 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#57 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#58 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#59 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(99): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#60 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#61 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#62 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#63 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#64 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#65 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#66 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#67 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#68 D:/workplace/www/manipark/index.php(51): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#69 {main}
+
+[previous exception] [object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [webinar.index] not defined. at D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:477)
+[stacktrace]
+#0 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(811): Illuminate/Routing/UrlGenerator->route('webinar.index', Array, true)
+#1 D:/workplace/www/manipark/storage/framework/views/5f955c3a0fe153478ed2fa28049d39bd.php(59): route('webinar.index')
+#2 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('D://workplace//ww...')
+#3 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate/Filesystem/Filesystem::Illuminate/Filesystem/{closure}()
+#4 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate/Filesystem/Filesystem->getRequire('D://workplace//ww...', Array)
+#5 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(72): Illuminate/View/Engines/PhpEngine->evaluatePath('D://workplace//ww...', Array)
+#6 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/View.php(207): Illuminate/View/Engines/CompilerEngine->get('D://workplace//ww...', Array)
+#7 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/View.php(190): Illuminate/View/View->getContents()
+#8 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/View.php(159): Illuminate/View/View->renderContents()
+#9 D:/workplace/www/manipark/storage/framework/views/99cfc07a0eb7af2b7044e2995f07774e.php(12): Illuminate/View/View->render()
+#10 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('D://workplace//ww...')
+#11 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate/Filesystem/Filesystem::Illuminate/Filesystem/{closure}()
+#12 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate/Filesystem/Filesystem->getRequire('D://workplace//ww...', Array)
+#13 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(72): Illuminate/View/Engines/PhpEngine->evaluatePath('D://workplace//ww...', Array)
+#14 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/View.php(207): Illuminate/View/Engines/CompilerEngine->get('D://workplace//ww...', Array)
+#15 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/View.php(190): Illuminate/View/View->getContents()
+#16 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/View.php(159): Illuminate/View/View->renderContents()
+#17 D:/workplace/www/manipark/storage/framework/views/ec2ecf2217537b00217849623f5c17fc.php(631): Illuminate/View/View->render()
+#18 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('D://workplace//ww...')
+#19 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate/Filesystem/Filesystem::Illuminate/Filesystem/{closure}()
+#20 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate/Filesystem/Filesystem->getRequire('D://workplace//ww...', Array)
+#21 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(72): Illuminate/View/Engines/PhpEngine->evaluatePath('D://workplace//ww...', Array)
+#22 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/View.php(207): Illuminate/View/Engines/CompilerEngine->get('D://workplace//ww...', Array)
+#23 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/View.php(190): Illuminate/View/View->getContents()
+#24 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/View.php(159): Illuminate/View/View->renderContents()
+#25 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate/View/View->render()
+#26 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate/Http/Response->setContent(Object(Illuminate/View/View))
+#27 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Routing/Router.php(918): Illuminate/Http/Response->__construct(Object(Illuminate/View/View), 200, Array)
+#28 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Routing/Router.php(885): Illuminate/Routing/Router::toResponse(Object(Illuminate/Http/Request), Object(Illuminate/View/View))
+#29 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Routing/Router.php(805): Illuminate/Routing/Router->prepareResponse(Object(Illuminate/Http/Request), Object(Illuminate/View/View))
+#30 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate/Routing/Router->Illuminate/Routing/{closure}(Object(Illuminate/Http/Request))
+#31 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#32 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#33 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#34 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#35 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#36 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#37 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#38 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#39 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#40 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#41 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#42 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#43 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#44 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#45 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Routing/Router.php(805): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#46 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#47 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#48 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#49 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#50 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#51 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#52 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#53 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#54 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#55 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#56 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#57 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#58 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#59 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(99): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#60 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#61 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#62 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#63 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#64 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#65 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#66 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#67 D:/workplace/www/manipark/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#68 D:/workplace/www/manipark/index.php(51): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#69 {main}
+"} 

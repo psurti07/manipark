@@ -360,7 +360,7 @@
                                                                                                 margin-top: 25px;
                                                                                                 display: block;
                                                                                             ">
-                                                                                        <a href="{{ $userData->acc_type==1?'https://manipark.com/self-apply':'https://manipark.com/loan-agent' }}" style="
+                                                                                        <a href="{{ $userData->acc_type==1?'https://manipark.com/loan-application':'https://manipark.com/loan-advisor' }}" style="
                                                                                                     background-color: #248c92;
                                                                                                     color: #fff;
                                                                                                     font-family: Poppins, sans-serif;
